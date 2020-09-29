@@ -1,1 +1,91 @@
 
+/*LAYOUT*/
+div#logo { width: 100%; border-bottom: 1px solid black; margin-bottom: 5px; height: 40px; line-height: 40px; text-indent: 20px; }
+div#menu {  vertical-align:top; margin: 0px 0px 40px 20px; }
+div#menu1 {width: 225px; vertical-align:top; float:left;  }	
+div#menu2 {width: 225px; vertical-align:top; float:left;  }
+div#menu3 {width: 225px; vertical-align: top; float:left;  }
+div#menu4 {width: 225px; vertical-align: top; float:left; }
+div#menu div.row { float: left; }
+
+div#main {clear:left; margin-top:20px; margin-left:20px; margin-right: 20px; min-height: 100px; max-width: 900px; }
+
+ul.menu { margin: 0px; padding: 0px; margin: 10px 0px 0px 40px; }
+
+
+/*FONTS*/
+
+body, table, td, div {font-size: 13px; font-family: "Times New Roman", Times, serif; text-align: left; vertical-align: top;	margin: 0px; padding: 0px;}
+	
+a:visited, a:link {color: #666666; text-decoration: none;}
+a:hover {color: #FF0000; text-decoration: none;}
+a.mainlevel_green{color: #009900; }
+p.green a{color: #009900}
+
+#main a { color: black; }
+
+img {padding: 0px; border: 0px;	display: block;	margin: 0px;	}	
+.componentheading {	padding-bottom: 20px;}
+.componentheading_current {	padding-bottom: 20px;}
+
+.back_button {padding-top: 20px;}
+.back_button a:hover,  .back_button a:visited, .back_button a:link {color: #000000;}
+.contentpaneopen { margin-bottom: 5px; }
+
+.contentpaneopen_current {margin: -10px; margin-left: 0px}
+
+
+a.category {padding: 0px; margin: 0px; }
+
+li {list-style-type: none; margin-left: -40px;}
+span.article_separator {display:none;}
+
+
+.cat-items strong.list-title { font-weight: normal; }
+
+h1 { color: black; font-weight: normal; font-size: 13px; font-family: "Times New Roman", Times, serif; 
+	text-align: left; vertical-align: top;	margin: 0px; padding: 0px; }
+
+
+ul.menu li.active a { color: red; }
+
+
+.clear { clear: both; }
+
+#main img {  max-width: 100% !important; height: auto !important;   }
+
+@media only screen and (max-width: 479px) {
+	div#menu1, div#menu2, div#menu3, div#menu4 { height: auto; }
+	div#menu .row { display: none; }
+	ul#mobilenav { display: block; }
+}
+
+@media only screen and (min-width: 480px) {
+	div#menu1, div#menu2, div#menu3, div#menu4 { height: 100px; }
+	select#mobilenav { display: none; }
+}
+
+@media only screen and (min-width: 900px) {
+	#main img { } 
+	}
+	
+	
+.items-leading > div, .items-row > div { margin-bottom: 100px; }
+
+body.item-149 .items-row div.span12 { margin-bottom: 0px; }
+
+table, td { border: 0; }
+
+#main{ margin-bottom: 30px;  }
+
+body.item-149 .items-row { margin-bottom: 3px; }
+
+
+.jcg3heading, .jcg3buttons {
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
