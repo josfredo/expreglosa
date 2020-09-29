@@ -42,7 +42,119 @@
 			 $("<option />", {
 			     "value"   : el.attr("href"),
 			     "text"    : el.text()
+			 }).appendTo("#menu select");<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr" class=" zevmnjzl idc0_321 djtqjyjqe zgogp"><head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="/templates/tillmans/cookieconsent/cookieconsent.min.css">
+	<script src="/templates/tillmans/cookieconsent/cookieconsent.min.js"></script>
+	<script>
+	window.addEventListener("load", function(){
+	window.cookieconsent.initialise({
+	  "palette": {
+	    "popup": {
+	      "background": "#000000",
+	      "text": "#ffffff"
+	    },
+	    "button": {
+	      "background": "#999999",
+	      "text": "#ffffff"
+	    }
+	  },
+	  "theme": "edgeless",
+	  "content": {
+	    "message": "This site uses cookies. Some of them are essentials while other help us improve your experience. If you continue you agree to using cookies.",
+	    "dismiss": "OK",
+	    "link": "More Information",
+	    "href": "http://tillmans.co.uk/privacy-policy#cookies"
+	  }
+	})});
+	</script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<link rel="shortcut icon" href="/templates/tillmans/favicon.ico">
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			$("<select id='mobilenav' />").appendTo("#menu");
+
+			$("<option />", {
+			   "selected": "selected",
+			   "value"   : "",
+			   "text"    : "Go to..."
+			}).appendTo("#menu select");
+
+			$("ul.nav a").each(function() {
+			 var el = $(this);
+			 $("<option />", {
+			     "value"   : el.attr("href"),
+			     "text"    : el.text()
 			 }).appendTo("#menu select");
+			});
+
+			$("#menu select").change(function() {
+				  window.location = $(this).find("option:selected").val();
+				});
+
+		});
+	</script>
+
+
+	<base href="https://tillmans.co.uk/">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>home</title>
+	<link href="/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0">
+	<link href="/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0">
+	<link href="/templates/tillmans/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+	<link href="/templates/tillmans/css/template.css" rel="stylesheet" type="text/css">
+	<script src="/media/jui/js/jquery.min.js?007267fb586cccca522c350171fa738d" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?007267fb586cccca522c350171fa738d" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?007267fb586cccca522c350171fa738d" type="text/javascript"></script>
+	<script src="/media/system/js/caption.js?007267fb586cccca522c350171fa738d" type="text/javascript"></script>
+	<script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+	</script>
+
+	<!--[if lt IE 9]>
+		<script src="/media/jui/js/html5.js"></script>
+	<![endif]-->	
+	<style></style></head>
+
+<body class="item-115"><div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-banner cc-type-info cc-theme-edgeless cc-bottom cc-color-override--19889088 " style=""><!--googleoff: all--><span id="cookieconsent:desc" class="cc-message">This site uses cookies. Some of them are essentials while other help us improve your experience. If you continue you agree to using cookies. <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="http://tillmans.co.uk/privacy-policy#cookies" target="_blank">More Information</a></span><div class="cc-compliance"><a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss">OK</a></div><!--googleon: all--></div>
+
+	<div id="logo">
+
+
+<div class="custom">
+	<a href="/">lri&nbsp;&nbsp;</a><p></p></div>
+
+	</div>
+	<div id="menu">
+    	<div class="row">
+			<div class="menumodule" id="menu1"><ul class="nav menu mod-list">
+<li class="item-149"><a href="/exhibition-calendar">exhibition calendar</a></li><li class="item-136"><a href="/new-installation-views">new installation views</a></li><li class="item-137"><a href="/installation-views-archive">installation views archive</a></li></ul>
+</div>
+
+</div>
+		<select id="mobilenav"><option selected="selected" value="">Go to...</option><option value="/exhibition-calendar">exhibition calendar</option><option value="/new-installation-views">new installation views</option><option value="/installation-views-archive">installation views archive</option><option selected="selected" value="">Go to...</option><option value="/exhibition-calendar">exhibition calendar</option><option value="/new-installation-views">new installation views</option><option value="/installation-views-archive">installation views archive</option></select><select id="mobilenav"><option selected="selected" value="">Go to...</option><option value="/exhibition-calendar">exhibition calendar</option><option value="/new-installation-views">new installation views</option><option value="/installation-views-archive">installation views archive</option></select></div>
+		<div class="clear"></div>
+
+    <div id="main">   
+			<div id="system-message-container">
+	</div>
+
+			<div class="blog-featured" itemscope="" itemtype="https://schema.org/Blog">
+<div class="items-leading clearfix">
+			<div class="leading-0 clearfix" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+
+
+
+
+
+
+
+
+</div></div></div></div></body></html>
 			});
 		
 			$("#menu select").change(function() {
