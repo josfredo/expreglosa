@@ -47,7 +47,7 @@ h1 { color: black; font-weight: normal; font-size: 18px; font-family: "Times New
 	text-align: left; vertical-align: top;	margin: 0px; padding: 0px; }
 
 
-ul.menu li.active a { color: red; }
+ul.menu li.active a { color: darkkhaki; }
 
 
 .clear { clear: both; }
