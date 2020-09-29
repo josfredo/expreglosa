@@ -15,7 +15,7 @@ ul.menu { margin: 0px; padding: 0px; margin: 10px 0px 0px 40px; }
 
 /*FONTS*/
 
-body, table, td, div {font-size: 13px; font-family: "Times New Roman", Times, serif; text-align: left; vertical-align: top;	margin: 0px; padding: 0px;}
+body, table, td, div {font-size: 18px; font-family: "Times New Roman", Times, serif; text-align: left; vertical-align: top;	margin: 0px; padding: 0px;}
 	
 a:visited, a:link {color: #666666; text-decoration: none;}
 a:hover {color: #FF0000; text-decoration: none;}
