@@ -18,7 +18,7 @@ ul.menu { margin: 0px; padding: 0px; margin: 10px 0px 0px 40px; }
 body, table, td, div {font-size: 18px; font-family: "Times New Roman", Times, serif; text-align: left; vertical-align: top;	margin: 0px; padding: 0px;}
 	
 a:visited, a:link {color: #666666; text-decoration: none;}
-a:hover {color: #FF0000; text-decoration: none;}
+a:hover {color: #bfba75; text-decoration: none;}
 a.mainlevel_green{color: #009900; }
 p.green a{color: #009900}
 
