@@ -89,3 +89,30 @@ body.item-149 .items-row { margin-bottom: 3px; }
 -ms-user-select: none;
 user-select: none;
 }
+
+.desk{
+  width:400px;
+  height:200px;
+  background:red;
+}
+.div-only-mobile{
+  width:400px;
+  height:200px;
+  background:orange;
+}
+@media screen and (max-width : 1920px){
+  .div-only-mobile{
+  visibility:hidden;
+  }
+}
+@media screen and (max-width : 906px){
+ .desk{
+  visibility:hidden;
+  }
+ .div-only-mobile{
+  visibility:visible;
+  }
+}
+<div class="desk">Large Screen</div>
+<div class="div-only-mobile">Only Mobile</div>
+<p>Demo Text.</p>
