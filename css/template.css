@@ -52,23 +52,7 @@ ul.menu li.active a { color: darkkhaki; }
 
 .clear { clear: both; }
 
-#main img {  max-width: 100% !important; height: auto !important;   }
 
-@media only screen and (max-width: 479px) {
-	div#menu1, div#menu2, div#menu3, div#menu4 { height: auto; }
-	div#menu .row { display: none; }
-	ul#mobilenav { display: block; }
-}
-
-@media only screen and (min-width: 480px) {
-	div#menu1, div#menu2, div#menu3, div#menu4 { height: 100px; }
-	select#mobilenav { display: none; }
-}
-
-@media only screen and (min-width: 900px) {
-	#main img { } 
-	}
-	
 	
 .items-leading > div, .items-row > div { margin-bottom: 100px; }
 
