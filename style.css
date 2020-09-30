@@ -31,12 +31,12 @@ ul {
         display: block;
         text-align: center;
         color: #666666;
-
-        
-        display: block;
-        text-align: center;
+        line-height: 1.2em;
+        position: relative;
+        top: 50%;
 
     }
+
 }
 
 @media screen and (min-width:500px) {
