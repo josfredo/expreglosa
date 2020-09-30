@@ -12,12 +12,10 @@ position: relative;
     }
 p {
         
-display: block;
-    text-align: center;
     color: #666666;
-    line-height: 74.1em;
     position: absolute;
     margin: 500x;
-    margin-left: 808px;
+    margin-top:546px;
+    margin-left: 798px;
 
      }
