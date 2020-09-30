@@ -72,17 +72,3 @@ body.item-149 .items-row { margin-bottom: 3px; }
 -moz-user-select: none;
 -ms-user-select: none;
 user-select: none;
-	
-/* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 500px) {
-  #logo , #menu , #main , .row {
-    display:none;
-  }
-  
-  .mobile-message {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
-}
-.mobile-message{display:none;}
