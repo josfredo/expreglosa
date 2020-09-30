@@ -76,10 +76,7 @@ user-select: none;
 	/* On screens that are 500px or less, set the background color to blue */
 @media screen and (min-width: 0px) and (max-width:500px) {
 
-    #logo,
-    #menu,
-    .row,
-    #main {
+    body * {
         display: none;
     }
 
