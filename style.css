@@ -1,0 +1,57 @@
+/* RESET 
+--------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: #1EAEDB;
+}
+
+ul {
+    list-style: none;
+}
+
+/* CONTENT STYLING 
+--------------------------------------*/
+
+/* On screens that are 500px or less, set the background color to blue */
+@media screen and (min-width: 0px) and (max-width:500px) {
+
+    body * {
+        display: none;
+    }
+
+    .mobile-message {
+        display: block;
+        text-align: center;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .mobile-message {
+        display: none;
+    }
+}
+
+.logo {
+    font-weight: 600;
+    padding: 30px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid black;
+}
+
+li {
+    margin-top: 30px;
+    margin-left: 30px;
+}
