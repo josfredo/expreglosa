@@ -72,3 +72,26 @@ body.item-149 .items-row { margin-bottom: 3px; }
 -moz-user-select: none;
 -ms-user-select: none;
 user-select: none;
+
+	/* On screens that are 500px or less, set the background color to blue */
+@media screen and (min-width: 0px) and (max-width:500px) {
+
+    #logo,
+    #menu,
+    .row,
+    #main {
+        display: none;
+    }
+
+    .mobile-message {
+        display: block;
+        text-align: center;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .mobile-message {
+        display: none;
+    }
+}
