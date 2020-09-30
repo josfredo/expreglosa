@@ -64,7 +64,6 @@ table, td { border: 0; }
 
 body.item-149 .items-row { margin-bottom: 3px; }
 
-min-height: 500px;
 
 .jcg3heading, .jcg3buttons {
 -webkit-touch-callout: none;
@@ -73,4 +72,17 @@ min-height: 500px;
 -moz-user-select: none;
 -ms-user-select: none;
 user-select: none;
+	
+	/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 500px) {
+  body * {
+    display:none;
+  }
+  
+  .mobile-message {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
 }
