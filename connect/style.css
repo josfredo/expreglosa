@@ -9,3 +9,14 @@ a {
 position: relative;
         top: 50%;
     }
+p {
+        
+display: block;
+    text-align: center;
+    color: #666666;
+    line-height: 74.1em;
+    position: absolute;
+    margin: 500x;
+    margin-left: 808px;
+
+     }
