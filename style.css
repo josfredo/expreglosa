@@ -1,7 +1,7 @@
 /* RESET 
 --------------------------------------*/
 
-* {margin: 0;padding: 0;box-sizing: border-box;font-size: 18px;line-height: 30px;text-indent: 0px;font-family: 'times new roman', sans-serif;}
+* {margin: 0;padding: 0;box-sizing: border-box;font-size: 16px;line-height: 28px;text-indent: 0px;font-family: 'times new roman', sans-serif;}
 
 a {
     text-decoration: none;
@@ -63,11 +63,13 @@ img {
     padding: 36px;
     letter-spacing: -0px;
     border-bottom: 1px solid #000000;
-    margin-bottom: 19px
+    margin-bottom: 21px;
+    margin-top: 6px;
 }
 
 li {
     margin-top: -9px;
     margin-left: 20px;
 }
+
 
