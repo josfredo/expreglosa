@@ -47,12 +47,17 @@ ul {
 
 img {
 
-    margin: auto 16px;
-    margin-top: 10px;
-    float: left;
-    width: 46px;
-    height: 46px;
-    }
+margin: auto 16px;
+
+margin-top: 10px;
+
+float: left;
+
+width: 43px;
+
+height: 43px;
+
+}
 
 .logo {
     font-weight: 500;
@@ -60,7 +65,7 @@ img {
     color: #666666;
     line-height: 20px;
     text-indent: 10px;
-    padding: 36px;
+    padding: 35px;
     letter-spacing: -0px;
     border-bottom: 1px solid #000000;
     margin-bottom: 21px;
