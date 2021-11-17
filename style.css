@@ -1,4 +1,49 @@
+/* RESET 
+--------------------------------------*/
 
+* {margin: 0;padding: 0;box-sizing: border-box;font-size: 16px;line-height: 28px;text-indent: 0px;font-family: 'times new roman', sans-serif;}
+
+a {
+    text-decoration: none;
+    color: #7b7a7a;
+}
+
+a:hover {
+    color: #a7a268;
+}
+
+ul {
+    list-style: none;
+}
+
+/* CONTENT STYLING 
+--------------------------------------*/
+
+/* On screens that are 500px or less, set the background color to blue */
+@media screen and (min-width: 0px) and (max-width:500px) {
+
+    body * {
+        display: none;
+    }
+
+    .mobile-message {
+
+        display: block;
+        text-align: center;
+        color: #666666;
+        line-height: 1.2em;
+        position: relative;
+        top: 50%;
+
+    }
+
+}
+
+@media screen and (min-width:500px) {
+    .mobile-message {
+        display: none;
+    }
+}
 
 img {
 
@@ -14,90 +59,21 @@ height: 43px;
 
 }
 
-html {
-    box-sizing: border-box;
-    font-size: 100%;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
-body {
-    background-color: #060042;
-    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(2%,#060042),color-stop(108%,#20A39E));
-    background-image: linear-gradient(#060042 2%,#20A39E 108%);
-    color: #ffffff;
-    min-height: 100vh;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-}
-
 .logo {
-    width: 120px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #666666;
+    line-height: 20px;
+    text-indent: 10px;
+    padding: 35px;
+    letter-spacing: -0px;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 21px;
+    margin-top: 6px;
 }
 
-a, a.featured {    
-    &:hover {
-        background-color: #060042;
-        color: #ffffff;
-    }
+li {
+    margin-top: -9px;
+    margin-left: 20px;
 }
 
-a {
-    display: block;
-    max-width: 400px;
-    margin: 0 auto 15px auto;
-    padding: 15px 20px;
-    font-size: 0.85rem;
-    color: #ffffff;
-    border: 2px solid #ffffff;
-    text-decoration: none;
-    transition: all 200ms ease-in-out;
-    
-    &.featured {
-        position: relative;
-        background-color: #ffffff;
-        color: #060042;
-        font-weight: bold;
-
-        &:before {
-            content: "";
-            position: absolute;
-            top: 2px;
-            left: 2px;            
-            width: calc(100% - 4px);
-            height: calc(100% - 4px);
-            border: 2px solid #060042;
-        }
-    }
-}
-
-h2 {
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: normal;
-    letter-spacing: 2px;
-}
-
-.channels {
-    display: flex;
-    max-width: 400px;
-    margin: 0 auto;
-    
-    a {
-        flex: 1;
-        padding: 5px 10px;
-        margin-right: 10px;
-        background-color: #060042;
-        border: none;
-
-        &:last-child {
-            margin-right: 0px;
-        }
-
-        &:hover {
-            text-decoration: underline;
-        }
-    }
-}
