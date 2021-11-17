@@ -20,6 +20,28 @@ ul {
 --------------------------------------*/
 
 /* On screens that are 500px or less, set the background color to blue */
+@media screen and (min-width: 0px) and (max-width:500px) {
+
+    body * {
+        display: none;
+    }
+
+    .mobile-message {
+
+        display: block;
+        text-align: center;
+        color: #666666;
+        line-height: 1.2em;
+        position: relative;
+        top: 50%;
+
+    }
+
+}
+
+@media screen and (min-width:500px) {
+    .mobile-message {
+        display: none;
     }
 }
 
@@ -54,4 +76,3 @@ li {
     margin-top: -9px;
     margin-left: 20px;
 }
-
