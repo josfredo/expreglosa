@@ -1,7 +1,4 @@
-﻿/* RESET 
---------------------------------------*/
-
-* {
+﻿* {
   margin: 0;
   font-size: 17px;
   font-family: 'times new roman', sans-serif;
@@ -16,17 +13,13 @@ a:hover {
   color: #a7a268;
 }
 
-ul {
-  list-style: none;
-}
-
 img {
   margin-left: 16px;
 }
 
 .top {
   line-height: 21px;
-  padding: 16px 0 16px 0;
+  padding: 10px 0 16px 0;
   border-bottom: 1px solid #000000;
   margin-top: 6px;
   display:flex;
