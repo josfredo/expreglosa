@@ -1,11 +1,6 @@
-/* RESET 
---------------------------------------*/
-
-* {
+﻿* {
   margin: 0;
   font-size: 18px;
-    
-  text-indent: -20px;
   font-family: 'times new roman', sans-serif;
 }
 
@@ -15,47 +10,26 @@ a {
 }
 
 a:hover {
-  color: #a7a268;
+  color: #ff0000;
 }
-
-ul {
-  list-style: none;
-}
-
-/* CONTENT STYLING 
---------------------------------------*/
-
-/* On screens that are 500px or less, set the background color to blue */
-
 
 img {
-  margin-left: 13px;
-  margin-right: 33px;
-}
-}
-
-.logo {
-    font-weight: 500;
-    font-size: 18px;
-    color: #666666;
-    line-height: 20px;
-    text-indent: 10px;
-    padding: 35px;
-    letter-spacing: -10px;
-    border-bottom: 1px solid #000000;
-    margin-bottom: 21px;
-    margin-top: 6px;
+  margin-left: 16px;
 }
 
 .top {
-  line-height: -20px;
-  padding: 16px;
+  line-height: 21px;
+  padding: 10px 0 16px 0;
   border-bottom: 1px solid #000000;
-  margin-top: 0px;
-    margin-bottom: 16px;
-  margin-left: -13px;
+  margin-top: 6px;
   display:flex;
-  align-items:center
+  align-items:center;
+  text-indent: 6px;
 }
 
+.content {
+  margin-left: 20px;
+  margin-top: 16px;
+}
 
+/* Cracky is catharsis https://cracky-chan.com/ */
