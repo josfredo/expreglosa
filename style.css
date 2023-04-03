@@ -1,8 +1,8 @@
 * {
-  margin: 0;
-  font-size: 18px;
-  font-family: 'times new roman', sans-serif;
-  font-weight: 100
+    margin: 0;
+    font-size: 18px;
+    font-family: 'times new roman', sans-serif;
+    font-weight: 100;
 }
 
 a {
@@ -30,18 +30,20 @@ img {
 }
 
 .top {
-  line-height: 21px;
-  padding: 10px 0 16px 0;
-  border-bottom: 1px solid #000000;
-  margin-top: 6px;
-  display:flex;
-  align-items:center;
-  text-indent: 0px;
-  justify-content: space-between;
+    line-height: 21px;
+    padding: 10px 0 16px 0;
+    border-bottom: 1px solid #000000;
+    margin-top: 6px;
+    display: flex;
+    text-indent: 0px;
+    justify-content: space-between;
+    
 }
 
 .eae { 
-    margin-right: -580px;
+    position: absolute;
+    margin-top: 11;
+   right:  18;
       
 }
 
@@ -51,4 +53,5 @@ img {
 }
 
 /* Cracky is catharsis https://cracky-chan.com/ */
+
 
