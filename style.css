@@ -3,8 +3,9 @@
 
 * {
   margin: 0;
-  font-size: 21px;
-  text-indent: 18px;
+  font-size: 18px;
+    
+  text-indent: -20px;
   font-family: 'times new roman', sans-serif;
 }
 
@@ -29,7 +30,7 @@ ul {
 
 img {
   margin-left: 13px;
-  margin-right: 0px;
+  margin-right: 33px;
 }
 }
 
@@ -51,8 +52,10 @@ img {
   padding: 16px;
   border-bottom: 1px solid #000000;
   margin-top: 0px;
+    margin-bottom: 16px;
   margin-left: -13px;
   display:flex;
   align-items:center
 }
+
 
