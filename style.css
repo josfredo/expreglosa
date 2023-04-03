@@ -1,4 +1,4 @@
-/* RESET 
+﻿/* RESET 
 --------------------------------------*/
 
 * {
@@ -27,7 +27,7 @@ img {
 
 .top {
   line-height: 21px;
-  padding: 35px;
+  padding: 35px 35px 35px 0;
   border-bottom: 1px solid #000000;
   margin-top: 6px;
   display:flex;
