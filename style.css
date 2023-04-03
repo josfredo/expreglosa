@@ -43,6 +43,8 @@ img {
 .eae { 
     position: absolute;
     margin-top: 11;
+    display: flex;
+    text-indent: 17px;
    right:  20;
       
 }
