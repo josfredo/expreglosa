@@ -1,7 +1,8 @@
-﻿* {
+* {
   margin: 0;
   font-size: 18px;
   font-family: 'times new roman', sans-serif;
+  font-weight: 100
 }
 
 a {
@@ -9,8 +10,17 @@ a {
   color: #7b7a7a;
 }
 
+    b {
+  text-decoration: none;
+  color: #ff0000;
+}
+
 a:hover {
   color: #ff0000;
+    }
+
+b:hover {
+  color: #7b7a7a;
 }
 
 img {
@@ -18,13 +28,20 @@ img {
 }
 
 .top {
-  line-height: 21px;
-  padding: 10px 0 16px 0;
-  border-bottom: 1px solid #000000;
-  margin-top: 6px;
-  display:flex;
-  align-items:center;
-  text-indent: 6px;
+    line-height: 21px;
+    padding: 10px 0 16px 0;
+    border-bottom: 1px solid #000000;
+    margin-top: 6px;
+    align-items: center;
+    text-indent: 6px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.eae {
+    margin-right: 16px;
+
 }
 
 .content {
