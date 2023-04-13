@@ -1,13 +1,22 @@
 * {
     margin: 0;
-
 }
-
-
 
 a {
   text-decoration: none;
+
+}
+
+a:any-link {
+color: #f700fe;
+text-decoration: none;
+cursor: auto;
+}
+
+b {
+  text-decoration: none;
   color: #7b7a7a;
+  
 }
 
 b {
@@ -18,10 +27,18 @@ b {
     font-weight: 100;
 }
 
-div.centered {
+.child {
   text-decoration: none;
   color: #66614C;
         font-size: 14px;
+    font-family: '', sans-serif;
+    font-weight: 100;
+}
+
+.lost {
+    text-decoration: none;
+    color: #f700fe;
+    font-size: 14px;
     font-family: '', sans-serif;
     font-weight: 100;
 }
@@ -34,7 +51,7 @@ div.bottom-right {
     font-weight: 100;
 }
 
-a:hover {
+b:hover {
   color: #ff0000;
 }
 
@@ -121,7 +138,7 @@ img {
 }
 
 /* Centered text */
-.centered {
+.child {
   display: flex; /* Use flexbox to center the child element vertically and horizontally */
   justify-content: center; /* Center the child element horizontally */
   height: 100vh; /* Set the height of the parent container */
@@ -129,8 +146,21 @@ img {
   margin-left: -134px;
 }
 
+.lost {
+    display: flex; /* Use flexbox to center the child element vertically and horizontally */
+  justify-content: center; /* Center the child element horizontally */
+  height: 100vh; /* Set the height of the parent container */
+  margin-top: -685px;
+  margin-left: 198px;
+}
+  
+
 .child {
     text-align: left 
+}
+
+.lost {
+    text-align: right 
     
 }
   
