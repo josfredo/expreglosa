@@ -59,6 +59,8 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  block-size: 360px;
+  writing-mode: vertical-rl;
 }
 
 /* Cracky is catharsis https://cracky-chan.com/ */
