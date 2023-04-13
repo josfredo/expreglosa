@@ -141,7 +141,6 @@ img {
 .child {
   display: flex; /* Use flexbox to center the child element vertically and horizontally */
   justify-content: center; /* Center the child element horizontally */
-  height: 100vh; /* Set the height of the parent container */
   margin-top: -250px;
   margin-left: -134px;
 }
@@ -149,8 +148,7 @@ img {
 .lost {
     display: flex; /* Use flexbox to center the child element vertically and horizontally */
   justify-content: center; /* Center the child element horizontally */
-  height: 100vh; /* Set the height of the parent container */
-  margin-top: -685px;
+  margin-top: 79px;
   margin-left: 198px;
 }
   
