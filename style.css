@@ -1,9 +1,9 @@
 * {
     margin: 0;
-    font-size: 18px;
-    font-family: 'times new roman', sans-serif;
-    font-weight: 100;
+
 }
+
+
 
 a {
   text-decoration: none;
@@ -13,6 +13,25 @@ a {
 b {
   text-decoration: none;
   color: #ff0000;
+        font-size: 18px;
+    font-family: 'times new roman', sans-serif;
+    font-weight: 100;
+}
+
+div.centered {
+  text-decoration: none;
+  color: #66614C;
+        font-size: 14px;
+    font-family: '', sans-serif;
+    font-weight: 100;
+}
+
+div.bottom-right {
+  text-decoration: none;
+  color: #565346;
+        font-size: 16px;
+    font-family: 'times', sans-serif;
+    font-weight: 100;
 }
 
 a:hover {
@@ -104,11 +123,12 @@ img {
 /* Centered text */
 .centered {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 43%;
+  left: 39.3%;
   transform: translate(-50%, -50%);
 }
 
 /* Cracky is catharsis https://cracky-chan.com/ */
+
 
 
