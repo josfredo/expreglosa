@@ -122,13 +122,30 @@ img {
 
 /* Centered text */
 .centered {
-  position: absolute;
-  top: 43%;
-  left: 39.3%;
-  transform: translate(-50%, -50%);
+  display: flex; /* Use flexbox to center the child element vertically and horizontally */
+  justify-content: center; /* Center the child element horizontally */
+  height: 100vh; /* Set the height of the parent container */
+  margin-top: -250px;
+  margin-left: -134px;
 }
 
+.child {
+    text-align: left 
+    
+}
+  
+
 /* Cracky is catharsis https://cracky-chan.com/ */
+ position: absolute;
+    top: 43%;
+    left: 39.3%;
+    transform: translate(-50%, -50%)
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    block-size: 375px;
+    writing-mode: :;
 
 
 
