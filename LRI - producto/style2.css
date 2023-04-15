@@ -1,0 +1,137 @@
+body {
+    font-family: 'Courier New', monospace;
+  }
+  
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.image {
+    width: 30%;
+    padding: 0 10px 0 0;
+    box-sizing: border-box;
+    margin-top: 190px;
+}
+
+.image img {
+    max-width: 100%;
+}
+
+.description {
+    font-size: 14px;
+    margin: 0 0 9px;
+    margin-left: 90px
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0 0 10px;
+    margin-left: 90px
+    
+}
+
+p {
+    margin: 5px;
+    font-size: 18px;
+    margin-left: 100px
+    
+}
+
+button {
+    padding: 10px 10px;
+    background-color: #cc01ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+button:hover {
+    background-color: #d9ff00;
+}
+.details-container{
+    width: 19%;
+    padding: 0 0 0 10px;
+    box-sizing: border-box;
+    margin-top: 300px;
+    margin-left: -290PX;
+}
+.user-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .login-link,
+  .signup-link {
+    padding: 10px 20px;
+    color: #cc01ff;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: -760px;
+  }
+  
+  .login-link:hover,
+  .signup-link:hover {
+    color: #d9ff00;
+  }
+  .category-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: -700px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .category {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: rgb(87, 255, 255);
+  }
+  .carrito-container {
+    position: absolute;
+    top: 13%;
+    right: 2%;
+    transform: translateY(-50%);
+}
+
+.carrito-container img {
+    max-width: 20px;
+}
+.cart-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: -70px;
+  margin-right: 57px;
+}
+
+.button-like {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #cc01ff;
+    color: #f10e0e;
+    font-size: 18px;
+    font-family: Courier New, monospace;
+    cursor: pointer;
+  }
+  
+
+.button:hover {
+  background-color: #d9ff00;
+}
