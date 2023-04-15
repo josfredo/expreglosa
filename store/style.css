@@ -1,0 +1,130 @@
+.logo-container {
+  perspective: 1000px;
+  position: relative;
+  top: 50px;
+  left: 920px;
+}
+
+.logo-container img {
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.logo-container img:hover {
+  transform: rotateY(1800deg);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fc1493;
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+  left: -710px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: violet;
+  transform: translateX(10px) translateY(-10px);
+}
+
+.login {
+  position: relative;
+  top: -80px;
+  left: 780px;
+  transition: all 0.3s ease;
+}
+
+.login:hover {
+  transform: translateX(10px) translateY(-10px);
+}
+
+.signup {
+  position: relative;
+  top: -80px;
+  left: 820px;
+  transition: all 0.3s ease;
+}
+
+.signup:hover {
+  transform: translateX(10px) translateY(-10px);
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  position: relative;
+  left: 450px;
+}
+
+.image-container img {
+  width: 500px;
+  position: relative;
+  left: -580px;
+  top: 300px;
+}
+
+.image-description {
+  position: relative;
+  top: 700px;
+  left: -890px;
+  font-weight: bold;
+  text-align: center;
+  color: #6663ff;
+}
+
+.image-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.image-price {
+  font-size: 18px;
+  color: #6c27cc;
+}
+  
+.carrito {
+  position: relative;
+  top: 300px;
+  left: -900px;
+  transition: all 0.3s ease;
+}
+
+.carrito:hover {
+  transform: translateX(10px) translateY(-10px);
+}
+
+.image-description-right {
+  position: relative;
+  top: 100px;
+  left: 40px;
+  font-weight: bold;
+  text-align:start;
+  color: #6663ff;
+}
+
+.image-description-right {
+  width: 20px;
+  position: relative;
+  top: 700px;
+  left: -350px;
+  }
+  
