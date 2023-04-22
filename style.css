@@ -1,169 +1,74 @@
 * {
-    margin: 0;
+  margin: 0;
 }
 
 a {
   text-decoration: none;
-
 }
 
 a:any-link {
-color: #f700fe;
-text-decoration: none;
-cursor: auto;
+  color: #f700fe;
+  cursor: auto;
 }
 
 b {
   text-decoration: none;
   color: #7b7a7a;
-  
-}
-
-b {
   text-decoration: none;
   color: #ff0000;
-        font-size: 18px;
-    font-family: 'times new roman', sans-serif;
-    font-weight: 100;
-}
-
-.child {
-  text-decoration: none;
-  color: #66614C;
-        font-size: 14px;
-    font-family: '', sans-serif;
-    font-weight: 100;
-}
-
-.lost {
-    text-decoration: none;
-    color: #f700fe;
-    font-size: 14px;
-    font-family: '', sans-serif;
-    font-weight: 100;
-}
-
-div.bottom-right {
-  text-decoration: none;
-  color: #565346;
-        font-size: 16px;
-    font-family: 'times', sans-serif;
-    font-weight: 100;
-}
-
-b:hover {
-  color: #ff0000;
+  font-size: 18px;
+  font-family: "times new roman", sans-serif;
+  font-weight: 100;
 }
 
 b:hover {
   color: #7b7a7a;
 }
-
-
 
 img {
   margin-left: 16px;
 }
 
+.child {
+  display: flex;
+  justify-content: center;
+  margin-top: -250px;
+  margin-left: -134px;
+  color: #66614c;
+  font-size: 14px;
+  font-family: "", sans-serif;
+}
+
+.lost {
+  display: flex;
+  justify-content: center;
+  margin-top: 79px;
+  margin-left: 198px;
+  font-size: 14px;
+  font-family: "", sans-serif;
+}
+
 .top {
-    line-height: 21px;
-    padding: 10px 0 16px 0;
-    border-bottom: 1px solid #000000;
-    margin-top: 6px;
-    display: flex;
-    text-indent: 0px;
-    justify-content: space-between;
-    
+  padding: 10px 0 16px 0;
+  border-bottom: 1px solid #000000;
+  margin-top: 6px;
+  display: flex;
 }
 
-.eae { 
-    position: absolute;
-    margin-top: 11;
-    display: flex;
-    text-indent: 17px;
-   right:  20;
-      
-}
-
-.content {
-  margin-left: 20px;
-  margin-top: 16px;
+.eae {
+  position: absolute;
+  margin-top: 11px;
+  display: flex;
+  text-indent: 17px;
+  right: 20px;
 }
 
 .baptism {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
   block-size: 375px;
   writing-mode: vertical-rl;
 }
 
----
----
-
-/* Container holding the image and the text */
-.poem {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-/* Bottom left text */
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
-
-/* Top left text */
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
-
-/* Top right text */
-.top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-}
-
-/* Bottom right text */
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-}
-
-/* Centered text */
-.child {
-  display: flex; /* Use flexbox to center the child element vertically and horizontally */
-  justify-content: center; /* Center the child element horizontally */
-  margin-top: -250px;
-  margin-left: -134px;
-}
-
-.lost {
-    display: flex; /* Use flexbox to center the child element vertically and horizontally */
-  justify-content: center; /* Center the child element horizontally */
-  margin-top: 79px;
-  margin-left: 198px;
-}
-  
-
-.child {
-    text-align: left 
-}
-
-.lost {
-    text-align: right 
-    
-}
-  
-
-/* Cracky is catharsis https://cracky-chan.com/ */
-
-
-
+/* Cracky is catharsis https: //cracky-chan.com/ */
