@@ -1,14 +1,25 @@
 * {
-  margin: 0;
+    margin: 0;
+
 }
 
 a {
   text-decoration: none;
+    justify-content: center;
+   
+}
+
+ul.list
+{
+  margin: 0;
+  padding: 0;
+    list-style: none;
+    list-style-type: none;
 }
 
 a:any-link {
-  color: #f700fe;
-  cursor: auto;
+color: #7b7a7a;
+    text-align: center;
 }
 
 b {
@@ -30,13 +41,17 @@ img {
 }
 
 .child {
-  display: flex;
-  justify-content: center;
-  margin-top: -250px;
-  margin-left: -134px;
-  color: #66614c;
-  font-size: 14px;
-  font-family: "", sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: -348px;
+    text-align: center;
+    text-decoration: none;
+    color: #ff0000;
+    text-decoration: none;
+    color: #7b7a7a;
+    font-size: 17px;
+    font-family: "",;
+
 }
 
 .lost {
