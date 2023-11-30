@@ -38,6 +38,7 @@ b:hover {
 
 img {
   margin-left: 16px;
+    display: block;
 }
 
 .child {
