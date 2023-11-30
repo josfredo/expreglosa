@@ -36,6 +36,10 @@ b:hover {
   color: #7b7a7a;
 }
 
+a:hover {
+  color: #ff0000;
+}
+
 img {
   margin-left: 16px;
     display: block;
@@ -97,4 +101,3 @@ img {
 }
 
 /* Cracky is catharsis https: //cracky-chan.com/ */
-
