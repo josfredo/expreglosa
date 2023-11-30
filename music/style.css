@@ -9,6 +9,10 @@ a {
    
 }
 
+.unclickable {
+  pointer-events: none; /* Disable pointer events */
+}
+
 ul.list
 {
   margin: 0;
