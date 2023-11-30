@@ -65,10 +65,18 @@ img {
 }
 
 .top {
-  padding: 10px 0 16px 0;
+   
+  padding: 16px 0 16px 0;
   border-bottom: 1px solid #000000;
-  margin-top: 6px;
+  margin-top: px;
+    
   display: flex;
+    position: fixed;
+    
+  width: 100%;
+  top: 0;
+  z-index: 1;
+    background-color: #ffffff;
 }
 
 .eae {
@@ -88,3 +96,4 @@ img {
 }
 
 /* Cracky is catharsis https: //cracky-chan.com/ */
+
