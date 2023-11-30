@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+
+}
+
+a {
+  text-decoration: none;
+    justify-content: center;
+   
+}
+
+.unclickable {
+  pointer-events: none; /* Disable pointer events */
+}
+
+ul.list
+{
+  margin: 0;
+  padding: 0;
+    list-style: none;
+    list-style-type: none;
+    margin-bottom: 16px;
+}
+
+a:any-link {
+color: #7b7a7a;
+    text-align: center;
+}
+
+b {
+  text-decoration: none;
+  color: #7b7a7a;
+  text-decoration: none;
+  color: #ff0000;
+  font-size: 18px;
+  font-family: "times new roman", sans-serif;
+  font-weight: 100;
+}
+
+b:hover {
+  color: #7b7a7a;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+img {
+  margin-left: 16px;
+    display: block;
+}
+
+.child {
+    line-height: 34px;
+    display: flex;
+    justify-content: center;
+    margin-top: 92px;
+    text-align: center;
+    text-decoration: none;
+    color: #ff0000;
+    text-decoration: none;
+    color: #7b7a7a;
+    font-size: 17px;
+    font-family: "",;
+
+}
+
+.lost {
+  display: flex;
+  justify-content: center;
+  margin-top: 79px;
+  margin-left: 198px;
+  font-size: 14px;
+  font-family: "", sans-serif;
+}
+
+.top {
+   
+  padding: 16px 0 16px 0;
+  border-bottom: 1px solid #000000;
+  margin-top: px;
+    
+  display: flex;
+    position: fixed;
+    
+  width: 100%;
+  top: 0;
+  z-index: 1;
+    background-color: #ffffff;
+}
+
+.eae {
+  position: absolute;
+  margin-top: 11px;
+  display: flex;
+  text-indent: 17px;
+  right: 20px;
+}
+
+.baptism {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  block-size: 375px;
+  writing-mode: vertical-rl;
+}
+
+/* Cracky is catharsis https: //cracky-chan.com/ */
