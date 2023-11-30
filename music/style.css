@@ -41,9 +41,10 @@ img {
 }
 
 .child {
+    line-height: 34px;
     display: flex;
     justify-content: center;
-    margin-top: 31px;
+    margin-top: 18px;
     text-align: center;
     text-decoration: none;
     color: #ff0000;
