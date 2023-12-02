@@ -25,19 +25,43 @@
         
            
 <!--Beginning of the java thing-->
-   <details onclick="loadIframe('3148694592')">
-  <summary><a>
-               LRI-037: <em>Fine America</em></a></summary>
-  <div id="iframe-container"><iframe src="https://bandcamp.com/EmbeddedPlayer/album=3148694592/size=large/bgcol=ffffff/linkcol=de270f/transparent=true/" style="border: 0px; width: 375px; height: 580px;"></iframe></div>
+  
+        <!-- Accordion 1 -->
+<details onclick="loadIframe('3148694592')" id="accordion1" open>
+  <summary><a>LRI-037: <em>Fine America</em></a></summary>
+  <div id="iframe-container-1"></div>
 </details>
 
-    <details onclick="loadIframe('3148694592')">
-  <summary><a>
-               LRI-036: <em>Krimson by Jones</em></a></summary>
-  <div id="iframe-container"><iframe src="https://bandcamp.com/EmbeddedPlayer/album=1039111000/size=large/bgcol=ffffff/linkcol=de270f/transparent=true/" style="border: 0px; width: 375px; height: 580px;"></iframe></div>
+<!-- Accordion 2 -->
+<details onclick="loadIframe('1039111000')" id="accordion2" open>
+  <summary><a>LRI-036: <em>Krimson by Jones</em></a></summary>
+  <div id="iframe-container-2"></div>
 </details>
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Remove the open attribute after the page loads
+  document.getElementById("accordion1").removeAttribute("open");
+  document.getElementById("accordion2").removeAttribute("open");
+});
 
+function loadIframe(albumId) {
+  const iframeContainer = document.getElementById(`iframe-container-${albumId}`);
+  
+  // Check if iframe is not already loaded
+  if (iframeContainer.innerHTML.trim() === '') {
+    // Load iframe content dynamically
+    const iframe = document.createElement('iframe');
+    iframe.style.border = '0';
+    iframe.style.width = '375px';
+    iframe.style.height = '580px';
+    iframe.src = `https://bandcamp.com/EmbeddedPlayer/album=${albumId}/size=large/bgcol=ffffff/linkcol=de270f/transparent=true/`;
+    
+    // Append iframe to the container
+    iframeContainer.appendChild(iframe);
+  }
+}
+</script>
 
 <!--End of the java thing-->        
         
