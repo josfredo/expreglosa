@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html lang="es"><head>
+
+ <script>
+    function showMoreText() {
+      var moreText = document.getElementById("moreText");
+      moreText.style.display = "block";
+    }
+  </script>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -18,14 +26,16 @@
       </div>
     </div>
     <div class="child" id="menu1"><ul class="list">
-        <details>
-  <summary>LRI-037: <em>Fine America</em></a></li></summary>
-  <p><iframe style="border: 0; width: 375px; height: 580px;" src="https://bandcamp.com/EmbeddedPlayer/album=3148694592/size=large/bgcol=ffffff/linkcol=de270f/transparent=true/" seamless><a href="https://polidelia.bandcamp.com/album/fine-america">Fine America by Krimson Jones</a></iframe></p>
-</details>
+        
      
         
-           <li class="item-149"><a href="https://polidelia.bandcamp.com/album/unsunk-child" target="_blank">
+           <li class="item-149"><a onclick="showMoreText()">
                LRI-037: <em>Fine America</em></a></li>
+
+        <div id="moreText" style="display: none;">
+  <iframe style="border: 0; width: 375px; height: 580px;" src="https://bandcamp.com/EmbeddedPlayer/album=3148694592/size=large/bgcol=ffffff/linkcol=de270f/transparent=true/" seamless><a href="https://polidelia.bandcamp.com/album/fine-america">Fine America by Krimson Jones</a></iframe>
+</div>
+        
            <li class="item-149"><a href="https://polidelia.bandcamp.com/album/krimson-by-jones-4" target="_blank">
                LRI-036: <em>Krimson by Jones</em></a></li>
            <li class="item-149"><a href="https://polidelia.bandcamp.com/album/la-mala-novella-2" target="_blank">
