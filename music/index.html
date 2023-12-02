@@ -32,23 +32,22 @@
 </details>
 
 <script>
-function loadIframe() {
-  const iframeContainer = document.getElementById('iframe-container');
+function loadIframe(albumId) {
+  const iframeContainer = document.getElementById(`iframe-container-${albumId}`);
   
   // Check if iframe is not already loaded
   if (iframeContainer.innerHTML.trim() === '') {
     // Load iframe content dynamically
     const iframe = document.createElement('iframe');
     iframe.style.border = '0';
- iframe.style.width = '375px';
+    iframe.style.width = '375px';
     iframe.style.height = '580px';
-    iframe.src = 'https://bandcamp.com/EmbeddedPlayer/album=3148694592/size=large/bgcol=ffffff/linkcol=de270f/transparent=true/';
+    iframe.src = `https://bandcamp.com/EmbeddedPlayer/album=${albumId}/size=large/bgcol=ffffff/linkcol=de270f/transparent=true/`;
     
     // Append iframe to the container
     iframeContainer.appendChild(iframe);
   }
 }
-</script>
         
            <li class="item-149"><a href="https://polidelia.bandcamp.com/album/krimson-by-jones-4" target="_blank">
                LRI-036: <em>Krimson by Jones</em></a></li>
