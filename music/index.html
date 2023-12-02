@@ -25,14 +25,14 @@
         
            
 
-   <details onclick="loadIframe()">
+   <details onclick="loadIframe('3148694592')">
   <summary><li class="item-149"><a>
                LRI-037: <em>Fine America</em></a></li></summary>
   <div id="iframe-container"></div>
 </details>
 
 <script>
-function loadIframe() {
+function loadIframe(albumNumber) {
   const iframeContainer = document.getElementById('iframe-container');
   
   // Check if iframe is not already loaded
@@ -40,9 +40,9 @@ function loadIframe() {
     // Load iframe content dynamically
     const iframe = document.createElement('iframe');
     iframe.style.border = '0';
- iframe.style.width = '375px';
+    iframe.style.width = '375px';
     iframe.style.height = '580px';
-    iframe.src = 'https://bandcamp.com/EmbeddedPlayer/album=3148694592/size=large/bgcol=ffffff/linkcol=de270f/transparent=true/';
+    iframe.src = `https://bandcamp.com/EmbeddedPlayer/album=${albumNumber}/size=large/bgcol=ffffff/linkcol=de270f/transparent=true/`;
     
     // Append iframe to the container
     iframeContainer.appendChild(iframe);
