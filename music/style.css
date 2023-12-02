@@ -105,4 +105,8 @@ img {
   writing-mode: vertical-rl;
 }
 
+* {
+  cursor: pointer;
+}
+
 /* Cracky is catharsis https: //cracky-chan.com/ */
