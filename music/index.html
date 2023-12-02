@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html lang="es"><head>
 
- <script>
-    function showMoreText() {
-      var moreText = document.getElementById("moreText");
-      moreText.style.display = "block";
-    }
-  </script>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -29,12 +23,32 @@
         
      
         
-           <li class="item-149"><a onclick="showMoreText()">
-               LRI-037: <em>Fine America</em></a></li>
+           
 
-        <div id="moreText" style="display: none;">
-  <iframe style="border: 0; width: 375px; height: 580px;" src="https://bandcamp.com/EmbeddedPlayer/album=3148694592/size=large/bgcol=ffffff/linkcol=de270f/transparent=true/" seamless><a href="https://polidelia.bandcamp.com/album/fine-america">Fine America by Krimson Jones</a></iframe>
-</div>
+   <details onclick="loadIframe()">
+  <summary><li class="item-149"><a>
+               LRI-037: <em>Fine America</em></a></li></summary>
+  <div id="iframe-container"></div>
+</details>
+
+<script>
+function loadIframe() {
+  const iframeContainer = document.getElementById('iframe-container');
+  
+  // Check if iframe is not already loaded
+  if (iframeContainer.innerHTML.trim() === '') {
+    // Load iframe content dynamically
+    const iframe = document.createElement('iframe');
+    iframe.style.border = '0';
+    iframe.style.width = '350px';
+    iframe.style.height = '470px';
+    iframe.src = 'https://bandcamp.com/EmbeddedPlayer/album=3148694592/size=large/bgcol=ffffff/linkcol=de270f/transparent=true/';
+    
+    // Append iframe to the container
+    iframeContainer.appendChild(iframe);
+  }
+}
+</script>
         
            <li class="item-149"><a href="https://polidelia.bandcamp.com/album/krimson-by-jones-4" target="_blank">
                LRI-036: <em>Krimson by Jones</em></a></li>
