@@ -21,15 +21,19 @@
     </div>
     <div class="child" id="menu1"><ul class="list">
         
-     
-        
-           
-
-   <details onclick="loadIframe()">
-  <summary><li class="item-149"><a>
-               LRI-037: <em>Fine America</em></a></li></summary>
-  <div id="iframe-container"></div>
+     <!-- BLABLABLABLAExample: multiple details elements with unique IDs -->
+<details onclick="loadIframe('3148694592')">
+  <summary><a>
+               LRI-037: <em>Fine America</em></a></summary>
+  <div id="iframe-container-1"></div>
 </details>
+
+<details onclick="loadIframe('1039111000')">
+  <summary><a>LRI-035: <em>La mala novella</em></a></summary>
+  <div id="iframe-container-2"></div>
+</details>
+
+<!-- Add more details elements as needed -->
 
 <script>
 function loadIframe(albumId) {
@@ -48,6 +52,15 @@ function loadIframe(albumId) {
     iframeContainer.appendChild(iframe);
   }
 }
+</script>
+
+        
+           
+
+   <details onclick="loadIframe()">
+  <summary><li class="item-149"></li></summary>
+  <div id="iframe-container"></div>
+</details>
         
            <li class="item-149"><a href="https://polidelia.bandcamp.com/album/krimson-by-jones-4" target="_blank">
                LRI-036: <em>Krimson by Jones</em></a></li>
