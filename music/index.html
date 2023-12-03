@@ -1,125 +1,166 @@
 <!DOCTYPE html>
-<html lang="es"><head>
-
-
+<html lang="es">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>polidelia</title>
     <!--Cracky is catharsis https://cracky-chan.com/-->
+    <script>
+      function loadIframe(albumId) {
+      iframeContainer = document.getElementById(albumId);      
+      // Check if iframe is not already loaded
+      if (iframeContainer.innerHTML.trim() === '') {
+        // Load iframe content dynamically
+        iframe = document.createElement('iframe');
+        iframe.style.border = '0';
+        iframe.style.width = '375px';
+        iframe.style.height = '580px';
+        iframe.src = `https://bandcamp.com/EmbeddedPlayer/album=${albumId}/size=large/bgcol=ffffff/linkcol=de270f/transparent=true/`;
+        // Append iframe to the container
+        iframeContainer.appendChild(iframe);
+        }
+      else {
+        iframeContainer.getElementsByTagName("iframe")[0].remove();
+        }
+      }
+    </script>
   </head>
   <body>
     <div class="top">
-        <a href="https://www.polidelia.com">
-  <img src="lri_logo.png" alt="logo" width="43" height="43">
-</a>
+      <a href="https://www.polidelia.com">
+      <img src="lri_logo.png" alt="logo" width="43" height="43">
+      </a>
       <div class="eae">
         <a href="https://polidelia.com/video"><b>vídeo</b></a>&nbsp;
         <a href="https://polidelia.com/music"><b>música</b></a>&nbsp;
         <a href="https://www.instagram.com/polidelia/" target="_blank"><b>imágen</b></a>
       </div>
     </div>
-    <div class="child" id="menu1"><ul class="list">
-        
-     
-        
-           
-<!--Beginning of the java thing-->
-   <details onclick="loadIframe('3148694592')" open="">
-  <summary><li class="item-149"><a>
-               LRI-037: <em>Fine America</em></a></li></summary>
-  <div id="iframe-container"><iframe src="https://bandcamp.com/EmbeddedPlayer/album=3148694592/size=large/bgcol=ffffff/linkcol=de270f/transparent=true/" style="border: 0px; width: 375px; height: 580px;"></iframe></div>
-</details>
-
-    <details onclick="loadIframe('3148694592')" open="">
-  <summary><li class="item-149"><a>
-               LRI-036: <em>Krimson by Jones</em></a></li></summary>
-  <div id="iframe-container"><iframe src="https://bandcamp.com/EmbeddedPlayer/album=1039111000/size=large/bgcol=ffffff/linkcol=de270f/transparent=true/" style="border: 0px; width: 375px; height: 580px;"></iframe></div>
-</details>
-
-
-
-<!--End of the java thing-->        
-        
-           <li class="item-149"><a href="https://polidelia.bandcamp.com/album/krimson-by-jones-4" target="_blank">
-               LRI-036: <em>Krimson by Jones</em></a></li>
-           <li class="item-149"><a href="https://polidelia.bandcamp.com/album/la-mala-novella-2" target="_blank">
-               LRI-035: <em>La mala novella</em></a></li>
-           <li class="item-149"><a href="https://polidelia.bandcamp.com/album/we-should-have-been-sublime" target="_blank">
-               LRI-034: <em>We Should Have Been Sublime</em></a></li>
+    <div class="child" id="menu1">
+      <ul class="list">
+        <li class="item-149">
+          <div onclick="loadIframe('3148694592')">
+            LRI-037: <em>Fine America</em>
+            <div id="3148694592"></div>
+          </div>
+        </li>
+        <li class="item-149">
+          <div onclick="loadIframe('1039111000')">
+            LRI-036: <em>Krimson by Jones</em>
+            <div id="1039111000"></div>
+          </div>
+        </li>
+        <li class="item-149"><a href="https://polidelia.bandcamp.com/album/la-mala-novella-2" target="_blank">
+          LRI-035: <em>La mala novella</em></a>
+        </li>
+        <li class="item-149"><a href="https://polidelia.bandcamp.com/album/we-should-have-been-sublime" target="_blank">
+          LRI-034: <em>We Should Have Been Sublime</em></a>
+        </li>
         <li class="item-149"><a href="https://polidelia.bandcamp.com/album/dolores-ray-2" target="_blank">
-               LRI-033: <em>dolores, ray</em></a></li>
+          LRI-033: <em>dolores, ray</em></a>
+        </li>
         <li class="item-149"><a href="https://polidelia.bandcamp.com/album/contempt-in-the-face-of-adversity" target="_blank">
-               LRI-032: <em>Contempt In The Face Of Adversity</em></a></li>
+          LRI-032: <em>Contempt In The Face Of Adversity</em></a>
+        </li>
         <li class="item-149"><a href="https://polidelia.bandcamp.com/album/rise-the-forbidden-adulations" target="_blank">
-               LRI-031: <em>RISE: THE FORBIDDEN ADULATIONS</em></a></li>
+          LRI-031: <em>RISE: THE FORBIDDEN ADULATIONS</em></a>
+        </li>
         <li class="item-149"><a href="https://polidelia.bandcamp.com/album/rise" target="_blank">
-               LRI-030: <em>RISE</em></a></li>
+          LRI-030: <em>RISE</em></a>
+        </li>
         <li class="item-149"><a href="https://polidelia.bandcamp.com/album/at-the-expense-of-others" target="_blank">
-               LRI-029: <em>At The Expense Of Others</em></a></li>
+          LRI-029: <em>At The Expense Of Others</em></a>
+        </li>
         <li class="unclickable">
-               LRI-028: <em>第三</em></a></li>
+          LRI-028: <em>第三</em></a>
+        </li>
         <li class="item-149"><a href="https://polidelia.bandcamp.com/album/l-prof-tea-galardica" target="_blank">
-               LRI-027: <em>Al Profetæ Galardica</em></a></li>
+          LRI-027: <em>Al Profetæ Galardica</em></a>
+        </li>
         <li class="item-149"><a href="https://polidelia.bandcamp.com/album/galardica" target="_blank">
-               LRI-026: <em>Galardica</em></a></li>
+          LRI-026: <em>Galardica</em></a>
+        </li>
         <li class="item-149"><a href="https://polidelia.bandcamp.com/album/onomatopeia-tokio" target="_blank">
-               LRI-025: <em>Onomatopeia/Tokio</em></a></li>
+          LRI-025: <em>Onomatopeia/Tokio</em></a>
+        </li>
         <li class="item-149"><a href="https://polidelia.bandcamp.com/track/durst-1" target="_blank">
-               LRI-024: <em>durst+1</em></a></li>
+          LRI-024: <em>durst+1</em></a>
+        </li>
         <li class="item-149"><a href="https://polidelia.bandcamp.com/album/dolores-ray" target="_blank">
-               LRI-023: <em>dolores ray</em></a></li>
+          LRI-023: <em>dolores ray</em></a>
+        </li>
         <li class="item-149"><a href="https://polidelia.bandcamp.com/album/mini-empires" target="_blank">
-               LRI-022: <em>MINI empires</em></a></li>
+          LRI-022: <em>MINI empires</em></a>
+        </li>
         <li class="item-149"><a href="https://polidelia.bandcamp.com/album/broken-minister-inc" target="_blank">
-               LRI-021: <em>Broken Minister, Inc.</em></a></li>
+          LRI-021: <em>Broken Minister, Inc.</em></a>
+        </li>
         <li class="item-149"><a href="https://polidelia.bandcamp.com/album/noji-mena" target="_blank">
-               LRI-020: <em>noji mena</em></a></li>
+          LRI-020: <em>noji mena</em></a>
+        </li>
         <li class="item-149"><a href="https://polidelia.bandcamp.com/album/comshlat" target="_blank">
-               LRI-019: <em>Comshlat</em></a></li>
+          LRI-019: <em>Comshlat</em></a>
+        </li>
         <li class="item-149"><a href="https://polidelia.bandcamp.com/album/shlatcom" target="_blank">
-               LRI-018: <em>Shlatcom</em></a></li>
+          LRI-018: <em>Shlatcom</em></a>
+        </li>
         <li class="item-149"><a href="https://polidelia.bandcamp.com/album/quaaludequantago" target="_blank">
-               LRI-017: <em>QuaaludeQuantago</em></a></li>
+          LRI-017: <em>QuaaludeQuantago</em></a>
+        </li>
         <li class="item-149"><a href="https://polidelia.bandcamp.com/album/haze-ever-after" target="_blank">
-               LRI-016: <em>Haze & Ever After</em></a></li>
+          LRI-016: <em>Haze & Ever After</em></a>
+        </li>
         <li class="item-149"><a href="https://polidelia.bandcamp.com/album/unisex-backrooms" target="_blank">
-               LRI-015: <em>Unisex Backrooms</em></a></li>
+          LRI-015: <em>Unisex Backrooms</em></a>
+        </li>
         <li class="item-149"><a href="https://polidelia.bandcamp.com/album/leviathan-industries-fm" target="_blank">
-               LRI-014: <em>Leviathan Industries FM</em></a></li>
+          LRI-014: <em>Leviathan Industries FM</em></a>
+        </li>
         <li class="item-149"><a href="https://polidelia.bandcamp.com/album/heal-the-body-the-head-will-rise" target="_blank">
-               LRI-013: <em>HEAL THE BODY & THE HEAD WILL RISE</em></a></li>
+          LRI-013: <em>HEAL THE BODY & THE HEAD WILL RISE</em></a>
+        </li>
         <li class="unclickable">
-               LRI-012: <em>Sea Sides</em></a></li>
+          LRI-012: <em>Sea Sides</em></a>
+        </li>
         <li class="unclickable">
-               LRI-011: <em>Besides,</em></a></li>
+          LRI-011: <em>Besides,</em></a>
+        </li>
         <li class="unclickable">
-               LRI-010: <em>Rosen Redux</em></a></li>
+          LRI-010: <em>Rosen Redux</em></a>
+        </li>
         <li class="item-149"><a href="https://polidelia.bandcamp.com/album/skyqueen" target="_blank">
-               LRI-009: <em>skyQueen</em></a></li>
+          LRI-009: <em>skyQueen</em></a>
+        </li>
         <li class="item-149"><a href="https://polidelia.bandcamp.com/album/the-human-plant-2" target="_blank">
-               LRI-008: <em>The Human Plant</em></a></li>
+          LRI-008: <em>The Human Plant</em></a>
+        </li>
         <li class="item-149"><a href="https://polidelia.bandcamp.com/album/unisex-bathrooms-2" target="_blank">
-               LRI-007: <em>Unisex Bathrooms</em></a></li>
+          LRI-007: <em>Unisex Bathrooms</em></a>
+        </li>
         <li class="unclickable">
-               LRI-006: <em>Protosynthesis: Reverse the Revolutionized/A See of Shit Pees</em></a></li>
+          LRI-006: <em>Protosynthesis: Reverse the Revolutionized/A See of Shit Pees</em></a>
+        </li>
         <li class="unclickable">
-               LRI-005: <em>電子落書き</em></a></li>
+          LRI-005: <em>電子落書き</em></a>
+        </li>
         <li class="unclickable">
-               LRI-004: <em>Superdiocane</em></a></li>
+          LRI-004: <em>Superdiocane</em></a>
+        </li>
         <li class="unclickable">
-               LRI-003: <em>No. 3</em></a></li>
+          LRI-003: <em>No. 3</em></a>
+        </li>
         <li class="unclickable">
-               LRI-002: <em>No. 2</em></a></li>
+          LRI-002: <em>No. 2</em></a>
+        </li>
         <li class="unclickable">
-               LRI-001: <em>No. 1</em></a></li>
+          LRI-001: <em>No. 1</em></a>
+        </li>
         <li class="unclickable">
-               LRI-000: <em>dream of daydream</em></a></li>
-        
-        
-        
-</ul></div>
-  
-
-
-</p></body></html>
+          LRI-000: <em>dream of daydream</em></a>
+        </li>
+      </ul>
+    </div>
+    </p>
+  </body>
+</html>
