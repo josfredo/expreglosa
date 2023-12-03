@@ -6,11 +6,14 @@
     <link rel="stylesheet" href="style.css">
     <title>polidelia</title>
     <!--Cracky is catharsis https://cracky-chan.com/-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
       function loadIframe(albumId) {
-      iframeContainer = document.getElementById(albumId);      
-      // Check if iframe is not already loaded
-      if (iframeContainer.innerHTML.trim() === '') {
+      id = $("iframe").parent().attr("id") 
+      if (id !== albumId) {                
+        a=$("iframe");
+        if(typeof a !== "undefined") { a.remove(); }
+        iframeContainer = $('#' + albumId);      
         // Load iframe content dynamically
         iframe = document.createElement('iframe');
         iframe.style.border = '0';
@@ -18,11 +21,9 @@
         iframe.style.height = '580px';
         iframe.src = `https://bandcamp.com/EmbeddedPlayer/album=${albumId}/size=large/bgcol=ffffff/linkcol=ff0000/transparent=true/`;
         // Append iframe to the container
-        iframeContainer.appendChild(iframe);
+        iframeContainer.append(iframe);
         }
-      else {
-        iframeContainer.getElementsByTagName("iframe")[0].remove();
-        }
+      else { $("iframe").remove(); } 
       }
     </script>
   </head>
