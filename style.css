@@ -71,4 +71,12 @@ img {
   writing-mode: vertical-rl;
 }
 
+* {
+  cursor: default;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
 /* Cracky is catharsis https: //cracky-chan.com/ */
