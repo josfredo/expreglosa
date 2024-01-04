@@ -32,11 +32,24 @@ img {
 .child {
   display: flex;
   justify-content: center;
-  margin-top: -250px;
-  margin-left: -134px;
-  color: #66614c;
-  font-size: 14px;
-  font-family: "", sans-serif;
+  margin-top: -338px;
+  margin-left: 213px;
+  color: rgba(171, 157, 107, 0.92);
+  font-size: 15px;
+  font-family: "times";
+  font-style: italic;
+  transform: rotate(-51deg);
+}
+
+.est {
+  display: flex;
+  justify-content: center;
+  margin-top: 233px;
+  margin-left: 184px;
+  color: rgba(208, 208, 208, 0.92);
+  font-size: 15px;
+  font-family: "times";
+  font-style: ;
 }
 
 .lost {
