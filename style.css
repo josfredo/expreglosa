@@ -27,9 +27,9 @@ color: #424242;
     text-align: center;
 }
 
+/* Districts */
+
 b {
-  text-decoration: none;
-  color: #7b7a7a;
   text-decoration: none;
   color: #ff0000;
   font-size: 18px;
@@ -38,7 +38,7 @@ b {
 }
 
 b:hover {
-  color: #7b7a7a;
+  color: #424242;
 }
 
 a:hover {
