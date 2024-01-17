@@ -35,6 +35,20 @@ img {
     display: block;
 }
 
+.child {
+    line-height: 34px;
+    display: flex;
+    justify-content: center;
+    margin-top: 92px;
+    text-align: center;
+    text-decoration: none;
+    color: #ff0000;
+    text-decoration: none;
+    color: #7b7a7a;
+    font-size: 17px;
+    font-family: "",;
+
+}
 
 .lost {
   display: flex;
