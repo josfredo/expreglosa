@@ -134,6 +134,10 @@ summary::-webkit-details-marker {
 
      }
 
+.textselect {
+    user-select: text;
+}     
+
 
 * {
   cursor: default;
