@@ -1,14 +1,15 @@
-* {
-  margin: 0;
-}
 
-a {
-  text-decoration: none;
+{
+  margin: 0;
+  padding: 0;
+    list-style: none;
+    list-style-type: none;
+    margin-bottom: 16px;
 }
 
 a:any-link {
-  color: #f700fe;
-  cursor: auto;
+color: #7b7a7a;
+    text-align: center;
 }
 
 b {
@@ -25,32 +26,15 @@ b:hover {
   color: #7b7a7a;
 }
 
+a:hover {
+  color: #ff0000;
+}
+
 img {
   margin-left: 16px;
+    display: block;
 }
 
-.child {
-  display: flex;
-  justify-content: center;
-  margin-top: -338px;
-  margin-left: 213px;
-  color: rgba(171, 157, 107, 0.92);
-  font-size: 15px;
-  font-family: "times";
-  font-style: italic;
-  transform: rotate(-51deg);
-}
-
-.est {
-  display: flex;
-  justify-content: center;
-  margin-top: 243px;
-  margin-left: 184px;
-  color: rgba(208, 208, 208, 0.92);
-  font-size: 15px;
-  font-family: "times";
-  font-style: ;
-}
 
 .lost {
   display: flex;
@@ -62,10 +46,18 @@ img {
 }
 
 .top {
-  padding: 10px 0 16px 0;
+
+  padding: 16px 0 16px 0;
   border-bottom: 1px solid #000000;
-  margin-top: 6px;
+  margin-top: px;
+
   display: flex;
+    position: fixed;
+
+  width: 100%;
+  top: 0;
+  z-index: 1;
+    background-color: #ffffff;
 }
 
 .eae {
@@ -82,14 +74,6 @@ img {
   margin-right: auto;
   block-size: 375px;
   writing-mode: vertical-rl;
-}
-
-* {
-  cursor: default;
-  user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
 }
 
 /* Cracky is catharsis https: //cracky-chan.com/ */
