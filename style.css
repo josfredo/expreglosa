@@ -110,6 +110,24 @@ summary::-webkit-details-marker {
   display: none;
 }
 
+connect {
+
+    margin: 8px;
+    margin-left: 13px;
+    margin-top: 13px;
+    float: left;
+    }
+.info {
+        
+    color: #666666;
+    position: absolute;
+    margin: 500x;
+    margin-top:562px;
+    margin-left: 798px;
+
+     }
+
+
 * {
   cursor: default;
   user-select: none;
