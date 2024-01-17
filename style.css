@@ -1,4 +1,19 @@
+* {
+    margin: 0;
 
+}
+
+a {
+  text-decoration: none;
+    justify-content: center;
+
+}
+
+.unclickable {
+  pointer-events: none; /* Disable pointer events */
+}
+
+ul.list
 {
   margin: 0;
   padding: 0;
@@ -88,6 +103,18 @@ img {
   margin-right: auto;
   block-size: 375px;
   writing-mode: vertical-rl;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+* {
+  cursor: default;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 /* Cracky is catharsis https: //cracky-chan.com/ */
