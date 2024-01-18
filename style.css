@@ -135,15 +135,6 @@ summary::-webkit-details-marker {
 
      }
 
-.lost {
-  display: flex;
-  justify-content: center;
-  margin-top: 79px;
-  margin-left: 198px;
-  font-size: 14px;
-  font-family: "", sans-serif;
-}
-
 .phonec {
         
     color: #666666;
