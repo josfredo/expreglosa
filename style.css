@@ -23,7 +23,7 @@ ul.list
 }
 
 a:any-link {
-color: #424242;
+    color: #edb4bf;
     text-align: center;
 }
 
@@ -42,7 +42,7 @@ b:hover {
 }
 
 a:hover {
-  color: #ff0000;
+  color: #b6d6b9;
 }
 
 img {
@@ -70,7 +70,7 @@ img {
   justify-content: center;
   margin-top: 0px;
   font-size: 14px;
-  font-family: "", sans-serif;
+  font-family: "", italic;
 }
 
 .found {
