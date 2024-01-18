@@ -68,8 +68,7 @@ img {
 .lost {
   display: flex;
   justify-content: center;
-  margin-top: 79px;
-  margin-left: 198px;
+  margin-top: 0px;
   font-size: 14px;
   font-family: "", sans-serif;
 }
