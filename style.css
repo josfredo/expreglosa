@@ -135,14 +135,14 @@ summary::-webkit-details-marker {
 
      }
 
-.child {
+.lost {
   display: flex;
   justify-content: center;
-  margin-top: -250px;
-  margin-left: -134px;
-  color: #66614c;
+  margin-top: 79px;
+  margin-left: 198px;
   font-size: 14px;
   font-family: "", sans-serif;
+}
 
 .phonec {
         
