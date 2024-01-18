@@ -70,7 +70,8 @@ img {
   justify-content: center;
   margin-top: 0px;
   font-size: 14px;
-  font-family: "", italic;
+  font-family: "arial", sans-serif;
+  font-style: italic;
 }
 
 .found {
