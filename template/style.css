@@ -32,9 +32,3 @@ body {
   line-height: 2.5;
   cursor: pointer;
 }
-
-/* Hide label on click */
-function hideLabel(element) {
-  element.innerHTML = '';
-  element.style.color = 'black';
-}
