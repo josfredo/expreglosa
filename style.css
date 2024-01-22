@@ -152,4 +152,13 @@ summary::-webkit-details-marker {
   user-select: none;
 }
 
+#allyouneediscountry {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0;
+}
+
 /* Cracky is catharsis https: //cracky-chan.com/ */
