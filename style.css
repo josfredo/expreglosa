@@ -53,6 +53,11 @@ c:hover {
   color: #424242;
 }
 
+strong {
+    
+    font-size: 19px;
+    
+}
 
 a:hover {
   color: #bfded1;
@@ -160,7 +165,7 @@ summary::-webkit-details-marker {
 }     
 
 .country {
-    padding: 100px;
+    padding: 101px;
     width: 44%;
     margin: auto;
     text-align: justify;
