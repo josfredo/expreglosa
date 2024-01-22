@@ -161,6 +161,8 @@ summary::-webkit-details-marker {
 
 .country {
     padding: 100px;
+    width: 44%;
+    margin: auto;
     text-align: justify;
 }
 
