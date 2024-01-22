@@ -179,9 +179,13 @@ summary::-webkit-details-marker {
     text-align: justify;
 }
 
+body.found {
+    background-color: #000000;
+}
+
 * {
   cursor: default;
   user-select: none;
 }
 
-/* Cracky is catharsis https: //cracky-chan.com/ */
+/* Cracky es catarsis https: //cracky-chan.com/ */
