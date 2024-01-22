@@ -132,6 +132,14 @@ img {
   writing-mode: vertical-rl;
 }
 
+.ascension {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  block-size: 375px;
+  writing-mode: vertical-rl;
+}
+
 summary::-webkit-details-marker {
   display: none;
 }
