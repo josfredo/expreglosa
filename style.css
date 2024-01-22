@@ -179,10 +179,6 @@ summary::-webkit-details-marker {
     text-align: justify;
 }
 
-body.found {
-    background-color: #000000;
-}
-
 * {
   cursor: default;
   user-select: none;
