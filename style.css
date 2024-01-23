@@ -173,10 +173,20 @@ summary::-webkit-details-marker {
 }     
 
 .country {
-    padding: 101px;
-    width: 44%;
-    margin: auto;
+    padding-top: 101px;
     text-align: justify;
+    max-width: 100%;
+    font-size: 16px;
+    font-family: "times new roman", sans-serif;
+    font-weight: 100;
+    margin-left: 29%;
+    margin-right: 29%;
+}
+    @media only screen and (max-width: 600px) {
+    .country {
+    margin-left: 5%;
+    margin-right: 5%;
+    
 }
 
 * {
