@@ -1,7 +1,4 @@
-* {
-    margin: 0;
-
-}
+/* For the benefit of others */
 
 /* Text deco */
 
@@ -194,6 +191,7 @@ summary::-webkit-details-marker {
 }
 
 * {
+  margin: 0;
   cursor: default;
   user-select: none;
 }
