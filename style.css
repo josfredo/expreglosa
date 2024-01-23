@@ -11,12 +11,12 @@
 a {
   text-decoration: none;
   justify-content: center;
-  color: #f199b4;
+  color: #fb60ff;
 
 }
 
 a:hover {
-  color: #a2d2be;
+  color: #ff0000;
 }
 
 a:any-link {
