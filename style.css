@@ -20,7 +20,7 @@ a:any-link {
     text-align: center;
 }
 
-b {
+g {
   text-decoration: none;
   color: #ff0000;
   font-size: 18px;
@@ -28,7 +28,7 @@ b {
   font-weight: 100;
 }
 
-b:hover {
+g:hover {
   color: #424242;
 }
 
