@@ -93,13 +93,6 @@ img {
   font-weight: bold;
 }
 
-.found {
-  display: flex;
-  justify-content: center;
-  font-size: 14px;
-  font-family: "", sans-serif;
-}
-
 .top {
 
   padding: 16px 0 16px 0;
