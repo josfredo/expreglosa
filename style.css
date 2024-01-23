@@ -79,21 +79,6 @@ img {
     display: block;
 }
 
-.child {
-    line-height: 34px;
-    display: flex;
-    justify-content: center;
-    margin-top: 92px;
-    text-align: center;
-    text-decoration: none;
-    color: #ff0000;
-    text-decoration: none;
-    color: #424242;
-    font-size: 17px;
-    font-family: "",;
-
-}
-
 .lost {
   display: flex;
   justify-content: center;
@@ -108,7 +93,6 @@ img {
 
   padding: 16px 0 16px 0;
   border-bottom: 1px solid #000000;
-  margin-top: px;
 
   display: flex;
     position: fixed;
@@ -123,7 +107,6 @@ img {
 
   padding: 16px 0 16px 0;
   border-bottom: 1px solid #e9e9e9;
-  margin-top: px;
 
   display: flex;
     position: fixed;
