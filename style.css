@@ -137,21 +137,28 @@ summary::-webkit-details-marker {
   display: none;
 }
 
-.connect {
+.connect1 {
 
-    margin: 8px;
-    margin-left: 13px;
-    margin-top: 13px;
+    margin: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+    }
+
+.connect2 {
+    
+    margin-left: 0px;
+    margin-top: 20px;
     float: left;
     }
 
 .info {
         
-    color: #666666;
+    color: #424242;
     position: absolute;
-    margin: 500x;
-    margin-top:527px;
-    margin-left: 798px;
+    margin-top:552px;
+    margin-left: 803px;
+    
 
      }
 
