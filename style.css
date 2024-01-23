@@ -3,31 +3,22 @@
 
 }
 
+/* Text deco */
+
 a {
   text-decoration: none;
     justify-content: center;
 
 }
 
-.unclickable {
-  pointer-events: none; /* Disable pointer events */
-}
-
-ul.list
-{
-  margin: 0;
-  padding: 0;
-    list-style: none;
-    list-style-type: none;
-    margin-bottom: 16px;
+a:hover {
+  color: #bfded1;
 }
 
 a:any-link {
     color: #edb4bf;
     text-align: center;
 }
-
-/* Districts */
 
 b {
   text-decoration: none;
@@ -59,8 +50,19 @@ strong {
     
 }
 
-a:hover {
-  color: #bfded1;
+/* End of Text deco */
+
+.unclickable {
+  pointer-events: none; /* Disable pointer events */
+}
+
+ul.list
+{
+  margin: 0;
+  padding: 0;
+    list-style: none;
+    list-style-type: none;
+    margin-bottom: 16px;
 }
 
 img {
