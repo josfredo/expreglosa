@@ -110,6 +110,21 @@ img {
     background-color: #ffffff;
 }
 
+.pot {
+
+  padding: 16px 0 16px 0;
+  border-bottom: 1px solid #000000;
+  margin-top: px;
+
+  display: flex;
+    position: fixed;
+
+  width: 100%;
+  top: 0;
+  z-index: 1;
+    background-color: #000000;
+}
+
 .block {
   position: absolute;
   margin-top: 11px;
