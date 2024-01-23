@@ -52,6 +52,16 @@ strong {
 
 /* End of Text deco */
 
+.white {
+
+  background-color: #e9e8d9;
+}
+
+.black {
+
+  background-color: #000000;
+}
+
 .unclickable {
   pointer-events: none; /* Disable pointer events */
 }
@@ -107,13 +117,13 @@ img {
   width: 100%;
   top: 0;
   z-index: 1;
-    background-color: #ffffff;
+    background-color: #e9e8d9;
 }
 
 .pot {
 
   padding: 16px 0 16px 0;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #e9e9e9;
   margin-top: px;
 
   display: flex;
@@ -173,15 +183,9 @@ summary::-webkit-details-marker {
         
     color: #424242;
     position: absolute;
-    margin-top:552px;
+    margin-top: 534px;
     margin-left: 803px;
     
-
-     }
-
-.phonec {
-        
-    color: #666666;
 
      }
 
@@ -195,7 +199,7 @@ summary::-webkit-details-marker {
     max-width: 100%;
     font-size: 17px;
     font-family: "times new roman", sans-serif;
-    color:#424242;
+    color:#e9e9e9;
     font-weight: 100;
     margin-left: 29%;
     margin-right: 29%;
