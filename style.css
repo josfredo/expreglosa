@@ -44,7 +44,7 @@ b:hover {
 c {
   text-decoration: none;
   color: #ff0000;
-  font-size: 16px;
+  font-size: 17px;
   font-family: "times new roman", sans-serif;
   font-weight: 100;
 }
@@ -176,7 +176,7 @@ summary::-webkit-details-marker {
     padding-top: 101px;
     text-align: justify;
     max-width: 100%;
-    font-size: 16px;
+    font-size: 17px;
     font-family: "times new roman", sans-serif;
     font-weight: 100;
     margin-left: 29%;
