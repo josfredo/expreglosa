@@ -1,5 +1,11 @@
 /* For the benefit of others */
 
+* {
+  margin: 0;
+  cursor: default;
+  user-select: none;
+}
+
 /* Text deco */
 
 a {
@@ -46,7 +52,7 @@ strong {
     
 }
 
-/* End of Text deco */
+/* main/found */
 
 .white {
 
@@ -57,6 +63,8 @@ strong {
 
   background-color: #000000;
 }
+
+/* Misc */
 
 .unclickable {
   pointer-events: none; /* Disable pointer events */
@@ -85,6 +93,8 @@ img {
   font-style: italic;
   font-weight: bold;
 }
+
+/* Bars */
 
 .top {
 
@@ -131,17 +141,11 @@ img {
   writing-mode: vertical-rl;
 }
 
-.ascension {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  block-size: 305px;
-  writing-mode: vertical-rl;
-}
-
 summary::-webkit-details-marker {
   display: none;
 }
+
+    /* /found */
 
 .connect1 {
 
@@ -172,6 +176,16 @@ summary::-webkit-details-marker {
     user-select: text;
 }     
 
+/* /found */
+
+.ascension {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  block-size: 305px;
+  writing-mode: vertical-rl;
+}
+
 .country {
     padding-top: 101px;
     text-align: justify;
@@ -188,12 +202,6 @@ summary::-webkit-details-marker {
     margin-left: 5%;
     margin-right: 5%;
     
-}
-
-* {
-  margin: 0;
-  cursor: default;
-  user-select: none;
 }
 
 /* Cracky es catarsis https: //cracky-chan.com/ */
