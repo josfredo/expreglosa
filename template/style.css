@@ -1,3 +1,7 @@
+* {
+  resize: none;
+}
+
 body {
   margin: 0;
   font-family: "times", serif;
