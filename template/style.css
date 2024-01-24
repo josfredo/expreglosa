@@ -1,34 +1,36 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "times", serif;
 }
 
 .form-container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   width: 66%;
   margin: 20px auto;
 }
 
-.input-field {
-  width: 33%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  margin-bottom: 10px;
-  color: grey;
-  cursor: text;
+.input-field1 {
+    
+
 }
 
-.input-field.large {
-  width: 66%;
+.input-field2 {
+  margin-right: 33%;
+    
 }
+
+.input-field3 {
+    
+    
+}
+
 
 .submit-btn {
   width: 100%;
-  height: 33%;
   background-color: red;
+  border: 1px solid #000;
   color: white;
   text-align: center;
-  line-height: 2.5;
   cursor: pointer;
 }
