@@ -17,18 +17,13 @@ body {
 
 
 .tisti1 {
-    lenght: 30px;
     width: 90px;
-    margin-top: -47px;
-    position: absolute ;
     
 }
 
 .tisti2 {
     
     width: 90px;
-    margin-top: -23px;
-    position: absolute;
     
 }
 
@@ -38,9 +33,7 @@ body {
 .tisti3{
     width: 294px;
     height: 43px;
-    margin-left: 94px;
-    margin-top: 40px;
-    margin-bottom: 4px
+    float: right;
     
 }
 
