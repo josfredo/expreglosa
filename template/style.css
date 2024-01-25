@@ -19,7 +19,7 @@ body {
 .tisti1 {
     lenght: 30px;
     width: 90px;
-    margin-top: -46px;
+    margin-top: -47px;
     position: absolute ;
     
 }
@@ -30,7 +30,6 @@ body {
     margin-top: -23px;
     position: absolute;
     
-    height: 13px;
 }
 
 
@@ -38,9 +37,10 @@ body {
 
 .tisti3{
     width: 294px;
-    height: 36px;
-    margin-left: 100px;
+    height: 43px;
+    margin-left: 94px;
     margin-top: 40px;
+    margin-bottom: 4px
     
 }
 
@@ -50,8 +50,9 @@ body {
 
 
 .submit-btn {
-  width: 400px;
+  width: 388px;
   background-color: red;
+   
   border: 1px solid grey;
   color: white;
   text-align: center;
