@@ -14,25 +14,45 @@ body {
   margin: 20px auto;
 }
 
-.input-field1 {
-    
 
+
+.tisti1 {
+    lenght: 30px;
+    width: 90px;
+    margin-top: -46px;
+    position: absolute ;
+    
 }
 
-.input-field2 {
+.tisti2 {
+    
+    width: 90px;
+    margin-top: -23px;
+    position: absolute;
+    
+    height: 13px;
+}
+
+
+
+
+.tisti3{
+    width: 294px;
+    height: 36px;
+    margin-left: 100px;
+    margin-top: 40px;
     
 }
 
-.input-field3 {
-    
-    
-}
+
+
+
 
 
 .submit-btn {
-  width: 100%;
+  width: 400px;
   background-color: red;
-  border: 1px solid #000;
+  border: 1px solid grey;
   color: white;
   text-align: center;
   cursor: pointer;
