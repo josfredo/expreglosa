@@ -234,5 +234,11 @@ ul {
   list-style-type: none; /* This removes the default bullet points */
 }
 
+hr {
+   background-color: black;
+     height: 1px;
+    border:none;
+}
+
 
 /* Cracky es catarsis https: //cracky-chan.com/ */
