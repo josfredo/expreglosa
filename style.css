@@ -231,5 +231,9 @@ summary::-webkit-details-marker {
   }
 }
 
+ul {
+  list-style-type: none; /* This removes the default bullet points */
+}
+
 
 /* Cracky es catarsis https: //cracky-chan.com/ */
