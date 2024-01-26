@@ -1,5 +1,5 @@
 /* For the benefit of others */
-/* Para el beneficio de los demás */
+/* Para el beneficio de los demÃ¡s */
 /* Per il bene degli altri */
 /* Pour le bien des autres */
 
@@ -23,7 +23,7 @@ a:hover {
 }
 
 a:any-link {
-    text-align: center;
+  text-align: center;
 }
 
 g {
@@ -51,9 +51,9 @@ c:hover {
 }
 
 strong {
-    
-    font-size: 19px;
-    
+
+  font-size: 19px;
+
 }
 
 /* main/found */
@@ -71,21 +71,21 @@ strong {
 /* Misc */
 
 .unclickable {
-  pointer-events: none; /* Disable pointer events */
+  pointer-events: none;
+  /* Disable pointer events */
 }
 
-ul.list
-{
+ul.list {
   margin: 0;
   padding: 0;
-    list-style: none;
-    list-style-type: none;
-    margin-bottom: 16px;
+  list-style: none;
+  list-style-type: none;
+  margin-bottom: 16px;
 }
 
 img {
   margin-left: 16px;
-    display: block;
+  display: block;
 }
 
 .lost {
@@ -106,12 +106,12 @@ img {
   border-bottom: 1px solid #000000;
 
   display: flex;
-    position: fixed;
+  position: fixed;
 
   width: 100%;
   top: 0;
   z-index: 1;
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .pot {
@@ -120,12 +120,12 @@ img {
   border-bottom: 1px solid #dbdbdb;
 
   display: flex;
-    position: fixed;
+  position: fixed;
 
   width: 100%;
   top: 0;
   z-index: 1;
-    background-color: #000000;
+  background-color: #000000;
 }
 
 .block {
@@ -149,36 +149,36 @@ summary::-webkit-details-marker {
   display: none;
 }
 
-    /* /found */
+/* /found */
 
 .connect1 {
 
-    margin: 20px;
-    margin-left: 20px;
-    margin-top: 20px;
-    float: left;
-    }
+  margin: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  float: left;
+}
 
 .connect2 {
-    
-    margin-left: 0px;
-    margin-top: 20px;
-    float: left;
-    }
+
+  margin-left: 0px;
+  margin-top: 20px;
+  float: left;
+}
 
 .info {
-        
-    color: #424242;
-    position: absolute;
-    margin-top: 534px;
-    margin-left: 803px;
-    
 
-     }
+  color: #424242;
+  position: absolute;
+  margin-top: 534px;
+  margin-left: 803px;
+
+
+}
 
 .textselect {
-    user-select: text;
-}     
+  user-select: text;
+}
 
 /* /found */
 
@@ -193,44 +193,44 @@ summary::-webkit-details-marker {
 /* My eternal */
 
 .country {
-    padding-top: 101px;
-    text-align: justify;
-    max-width: 100%;
-    font-size: 17px;
-    font-family: "times new roman", sans-serif;
-    color:#dbdbdb;
-    font-weight: 100;
-    margin-left: 30%;
-    margin-right: 30%;
-}
-    @media only screen and (max-width: 600px) {
-    .country {
-    margin-left: 5%;
-    margin-right: 5%;
-
-}    
-    
+  padding-top: 101px;
+  text-align: justify;
+  max-width: 100%;
+  font-size: 17px;
+  font-family: "times new roman", sans-serif;
+  color: #dbdbdb;
+  font-weight: 100;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 /* Protocols */
 
 .protocol {
-    padding-top: 101px;
-    text-align: justify;
-    max-width: 100%;
-    font-size: 17px;
-    font-family: "times new roman", sans-serif;
-    color:#424242;
-    font-weight: 100;
-    margin-left: 30%;
-    margin-right: 30%;
+  padding-top: 101px;
+  text-align: justify;
+  max-width: 100%;
+  font-size: 17px;
+  font-family: "times new roman", sans-serif;
+  color: #424242;
+  font-weight: 100;
+  margin-left: 30%;
+  margin-right: 30%;
 }
-    @media only screen and (max-width: 600px) {
-    .protocol {
+
+
+@media only screen and (max-width: 600px) {
+  .country {
     margin-left: 5%;
     margin-right: 5%;
-}    
-    
+  }
+
+  .protocol {
+    margin-left: 5%;
+    margin-right: 5%;
+
+  }
 }
+
 
 /* Cracky es catarsis https: //cracky-chan.com/ */
