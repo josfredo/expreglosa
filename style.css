@@ -210,4 +210,24 @@ summary::-webkit-details-marker {
     
 }
 
+/* Protocols */
+
+.protocol {
+    padding-top: 101px;
+    text-align: justify;
+    max-width: 100%;
+    font-size: 17px;
+    font-family: "times new roman", sans-serif;
+    color:#424242;
+    font-weight: 100;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+    @media only screen and (max-width: 600px) {
+    .protocol {
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
 /* Cracky es catarsis https: //cracky-chan.com/ */
