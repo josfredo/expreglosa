@@ -195,7 +195,7 @@ summary::-webkit-details-marker {
   padding-top: 101px;
   text-align: justify;
   max-width: 100%;
-  font-size: 17px;
+  font-size: 18px;
   font-family: "times new roman", sans-serif;
   color: #dbdbdb;
   font-weight: 100;
@@ -208,7 +208,7 @@ summary::-webkit-details-marker {
 .protocol {
   padding-top: 101px;
   max-width: 100%;
-  font-size: 17px;
+  font-size: 18px;
   font-family: "times new roman", sans-serif;
   color: #424242;
   font-weight: 100;
