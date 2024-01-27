@@ -51,7 +51,7 @@ c:hover {
 
 strong {
 
-  font-size: 19px;
+  font-size: 23px;
 
 }
 
@@ -193,7 +193,6 @@ summary::-webkit-details-marker {
 
 .country {
   padding-top: 101px;
-  text-align: justify;
   max-width: 100%;
   font-size: 18px;
   font-family: "times new roman", sans-serif;
