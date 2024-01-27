@@ -229,6 +229,15 @@ summary::-webkit-details-marker {
   }
 }
 
+.index {    
+    text-align: center;
+}
+
+.index ul {
+    display: inline-block;
+    text-align: left;
+}
+
 ul {
   list-style-type: none; /* This removes the default bullet points */
 }
