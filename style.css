@@ -55,7 +55,7 @@ strong {
 
 }
 
-/* main/found */
+/* Body: white, black */
 
 .white {
 
@@ -97,7 +97,7 @@ img {
   font-weight: bold;
 }
 
-/* Bars */
+/* Bars: white, black */
 
 .top {
 
@@ -110,7 +110,7 @@ img {
   width: 100%;
   top: 0;
   z-index: 1;
-  background-color: #bea9a9;
+  background-color: #a9bebc;
 }
 
 .pot {
