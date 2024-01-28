@@ -49,6 +49,18 @@ h:hover {
   color: #4aff00;
 }
 
+j {
+  text-decoration: none;
+  color: #4aff00;
+  font-size: 18px;
+  font-family: "times new roman", sans-serif;
+  font-weight: 100;
+}
+
+j:hover {
+  color: #4aff00;
+}
+
 c {
   text-decoration: none;
   color: #ff0000;
