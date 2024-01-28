@@ -91,7 +91,7 @@ strong {
   font-size: 23px;
 }
 
-/* Body: white, black */
+/* Body: white, black, rage */
 
 .white {
   background-color: #bea9a9;
@@ -99,6 +99,10 @@ strong {
 
 .black {
   background-color: #000000;
+}
+
+.rage {
+  background-color: #B7AD92;
 }
 
 /* Misc */
