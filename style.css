@@ -302,6 +302,11 @@ ul {
   padding: 0;
 }
 
+.ursula {
+    
+  list-style-type: initial ;  
+}
+
 hr {
   background-color: black;
   height: 1px;
