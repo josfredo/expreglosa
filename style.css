@@ -1,4 +1,4 @@
-/* For the benefit of others */
+﻿/* For the benefit of others */
 /* Para el beneficio de los demás */
 /* Per il bene degli altri */
 /* Pour le bien des autres */
@@ -7,6 +7,14 @@
   margin: 0;
   cursor: default;
   user-select: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.strong {
+  font-weight: bold;
 }
 
 /* Text deco */
@@ -25,7 +33,7 @@ a:any-link {
   text-align: center;
 }
 
-g {
+.g {
   text-decoration: none;
   color: #ff0000;
   font-size: 18px;
@@ -37,7 +45,7 @@ g:hover {
   color: #4aff00;
 }
 
-h {
+.h {
   text-decoration: none;
   color: #3e54fe;
   font-size: 18px;
@@ -45,11 +53,11 @@ h {
   font-weight: 100;
 }
 
-h:hover {
+.h:hover {
   color: #4aff00;
 }
 
-j {
+.j {
   text-decoration: none;
   color: #65ac48;
   font-size: 18px;
@@ -57,11 +65,11 @@ j {
   font-weight: 100;
 }
 
-j:hover {
+.j:hover {
   color: #4aff00;
 }
 
-c {
+.c {
   text-decoration: none;
   color: #ff0000;
   font-size: 17px;
@@ -69,7 +77,7 @@ c {
   font-weight: 100;
 }
 
-c:hover {
+.c:hover {
   color: #4aff00;
 }
 
@@ -253,28 +261,28 @@ summary::-webkit-details-marker {
   }
 }
 
-.index {    
-    text-align: center;
+.index {
+  text-align: center;
 }
 
 .index ul {
-    display: inline-block;
-    text-align: left;
+  display: inline-block;
+  text-align: left;
 }
 
 ul {
-  list-style-type: none; /* This removes the default bullet points */
+  list-style-type: none;
+  /* This removes the default bullet points */
 }
 
 .yankee {
-  padding:0;
+  padding: 0;
 }
 
 hr {
-   background-color: black;
-     height: 1px;
-    border:none;
+  background-color: black;
+  height: 1px;
+  border: none;
 }
-
 
 /* Cracky es catarsis https: //cracky-chan.com/ */
