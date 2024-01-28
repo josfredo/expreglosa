@@ -19,8 +19,12 @@
   font-size: 23px;
 }
 
-/* Text deco */
-/* j="rage", main page */
+/* Text deco
+   
+  j="rage", main page 
+  h="Índice", acuerdos 
+
+*/
 
 a {
   text-decoration: none;
@@ -51,7 +55,7 @@ a:any-link {
 .h {
   text-decoration: none;
   color: #3e54fe;
-  font-size: 18px;
+  font-size: 17px;
   font-family: "times new roman", sans-serif;
   font-weight: 100;
 }
