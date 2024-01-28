@@ -284,11 +284,11 @@ summary::-webkit-details-marker {
   }
 }
 
-.index {
+.ind {
   text-align: center;
 }
 
-.index ul {
+.ind ul {
   display: inline-block;
   text-align: left;
 }
