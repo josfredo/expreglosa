@@ -173,13 +173,13 @@ img {
 
 .otp {
     padding: 16px 0;
-    border-bottom: 1px solid #dbdbdb;
+    border-bottom: 1px solid #3e623b;
     display: flex;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1;
-    background-color:#000;
+    background-color:#3e623b;
     height: 43px;
 }
 
