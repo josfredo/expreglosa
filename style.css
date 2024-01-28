@@ -82,6 +82,10 @@ a:any-link {
   color: #4aff00;
 }
 
+.ra {
+  color:#000;
+}
+
 strong {
   font-size: 23px;
 }
@@ -148,6 +152,18 @@ img {
   top: 0;
   z-index: 1;
   background-color: #000000;
+}
+
+.otp {
+    padding: 16px 0;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background-color:#000;
+    height: 43px;
 }
 
 .block {
