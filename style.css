@@ -23,6 +23,7 @@
    
   j="rage", main page 
   h="Índice button", acuerdos
+   ="acuerdos", main page
   m="actual index items", acuerdos 
 
 */
@@ -55,7 +56,7 @@ a:any-link {
 
 .h {
   text-decoration: none;
-  color: #3e54fe;
+  color: #2529f7;
   font-size: 17px;
   font-family: "times new roman", sans-serif;
   font-weight: 100;
@@ -91,7 +92,7 @@ a:any-link {
 
 .m {
   text-decoration: none;
-  color: #3e54fe;
+  color: #2529f7;
   font-size: 18px;
   font-family: "times new roman", sans-serif;
   font-weight: 100;
