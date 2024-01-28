@@ -88,6 +88,18 @@ a:any-link {
   color: #4aff00;
 }
 
+.m {
+  text-decoration: none;
+  color: #3e54fe;
+  font-size: 18px;
+  font-family: "times new roman", sans-serif;
+  font-weight: 100;
+}
+
+.m:hover {
+  color: #4aff00;
+}
+
 .c {
   text-decoration: none;
   color: #ff0000;
