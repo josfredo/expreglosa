@@ -327,4 +327,10 @@ hr {
   border: none;
 }
 
+.border-box {
+    border: 1px solid black; /* 1px solid border */
+    padding: 10px; /* Padding for content inside the box */
+    width: 300px; /* Adjust width as needed */
+}
+
 /* Cracky es catarsis https: //cracky-chan.com/ */
