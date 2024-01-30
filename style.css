@@ -336,6 +336,13 @@ hr {
   border: none;
 }
 
+.hrup {
+  margin-bottom: 10px;
+}
+.hrdo {
+  margin-top: 10px;
+}
+
 .half {
   width: 50%;
 }
