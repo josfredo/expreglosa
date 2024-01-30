@@ -294,6 +294,17 @@ summary::-webkit-details-marker {
   margin-right: 27%;
 }
 
+.skyqueen {
+  padding-top: 101px;
+  max-width: 100%;
+  font-size: 18px;
+  font-family: "times new roman", sans-serif;
+  color: #dbdbdb;
+  font-weight: 100;
+  margin-left: 27%;
+  margin-right: 27%;
+}
+
 
 @media only screen and (max-width: 600px) {
   .country {
@@ -302,6 +313,11 @@ summary::-webkit-details-marker {
   }
 
   .protocol {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .skyqueen {
     margin-left: 5%;
     margin-right: 5%;
   }
