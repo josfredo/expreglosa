@@ -336,6 +336,10 @@ hr {
   border: none;
 }
 
+.half {
+  width: 50%;
+}
+
 .rounder {
     border: 1px solid #000;
     padding-left: 4px;
