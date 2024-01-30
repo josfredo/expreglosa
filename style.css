@@ -294,6 +294,14 @@ summary::-webkit-details-marker {
   margin-right: 27%;
 }
 
+.tunnel {
+  color: #424242;
+}
+
+.tunnel:hover {
+  color: #000;
+}
+
 .skyqueen {
   padding-top: 101px;
   max-width: 100%;
