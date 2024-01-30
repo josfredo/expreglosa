@@ -366,6 +366,21 @@ hr {
   margin-top: 11px;
 }
 
+hrsky {
+  background-color: #dbdbdb;
+  height: 1px;
+  border: none;
+}
+
+.hrupsky {
+  background-color: #dbdbdb;
+  margin-bottom: 11px;
+}
+.hrdosky {
+  background-color: #dbdbdb;
+  margin-top: 11px;
+}
+
 .half {
   width: 50%;
 }
