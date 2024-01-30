@@ -305,11 +305,6 @@ summary::-webkit-details-marker {
   margin-right: 27%;
 }
 
-.tunnel {
-  
-}
-
-
 @media only screen and (max-width: 600px) {
   .country {
     margin-left: 5%;
