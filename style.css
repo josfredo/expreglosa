@@ -346,6 +346,24 @@ summary::-webkit-details-marker {
     margin-left: 5%;
     margin-right: 5%;
   }
+
+  .top {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .pot {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .otp {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }    
 }
 
 .ind {
