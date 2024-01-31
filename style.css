@@ -377,6 +377,11 @@ summary::-webkit-details-marker {
     margin-left: 0%;
     margin-right: 0%;
   }
+
+  hr {
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+  }
 }
 
 .ind {
