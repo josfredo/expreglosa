@@ -14,25 +14,28 @@ body {
   margin: 20px auto;
 }
 
-
 .tisti1 {
   width: 40%;
   margin-bottom: 5px;
   display: block;
+  height: 22px;
 }
 
 .tisti2 {
   width: 40%;
   margin-bottom: 5px;
   display: block;
+  height: 22px;
 }
 
 .tisti3 {
   width: 55%;
   float: right;
   display: block;
+  height: 54px;
+  border-width: 1px;
+  margin: 0;
 }
-
 
 .submit-btn {
   width: 388px;
