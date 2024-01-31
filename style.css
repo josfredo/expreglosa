@@ -325,8 +325,6 @@ summary::-webkit-details-marker {
   font-family: "times new roman", sans-serif;
   color: #dbdbdb;
   font-weight: 100;
-  margin-left: 27%;
-  margin-right: 27%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -441,7 +439,7 @@ hr {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  block-size: 305px;
+  block-size: 289px;
   writing-mode: vertical-rl;
 }
 
