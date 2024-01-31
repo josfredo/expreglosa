@@ -295,6 +295,8 @@ summary::-webkit-details-marker {
   font-family: "times new roman", sans-serif;
   color: #dbdbdb;
   font-weight: 100;
+  margin-left: 30.6%;
+  margin-right: 30.6%;
 }
 
 /* Protocols */
