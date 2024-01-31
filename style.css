@@ -308,8 +308,6 @@ summary::-webkit-details-marker {
   font-family: "times new roman", sans-serif;
   color: #000;
   font-weight: 100;
-  margin-left: 27%;
-  margin-right: 27%;
 }
 
 .tunnel {
@@ -385,8 +383,8 @@ ul {
 }
 
 .foxtrot {
-    margin-left: 2.3%;
-    margin-right: 2.3%;
+  margin-left: 27.1%;
+  margin-right:27.1% 
 }
 
 .ursula {
@@ -398,8 +396,8 @@ hr {
   background-color: black;
   height: 1px;
   border: none;
-  margin-left: 27%;
-  margin-right:27%
+  margin-left: 26%;
+  margin-right:26%
 }
 
 .hrup {
