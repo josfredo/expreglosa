@@ -308,6 +308,8 @@ summary::-webkit-details-marker {
   font-family: "times new roman", sans-serif;
   color: #000;
   font-weight: 100;
+  margin-left: 27.1%;
+  margin-right:27.1%;
 }
 
 .tunnel {
