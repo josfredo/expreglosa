@@ -194,9 +194,9 @@ img {
   border-bottom: 1px solid #000000;
   display: flex;
   position: fixed;
-  width: 46%;
-  margin-left: 27%;
-  margin-right: 27%;
+  width: 48%;
+  margin-left: 26%;
+  margin-right: 26%;
   top: 0;
   z-index: 1;
   background-color: #dbdbdb;
@@ -207,9 +207,9 @@ img {
   border-bottom: 1px solid #dbdbdb;
   display: flex;
   position: fixed;
-  width: 46%;
-  margin-left: 27%;
-  margin-right: 27%;
+  width: 48%;
+  margin-left: 26%;
+  margin-right: 26%;
   top: 0;
   z-index: 1;
   background-color: #000000;
@@ -393,6 +393,8 @@ hr {
   background-color: black;
   height: 1px;
   border: none;
+  margin-left: 27%;
+  margin-right:27%
 }
 
 .hrup {
