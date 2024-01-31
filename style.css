@@ -289,8 +289,7 @@ summary::-webkit-details-marker {
   font-family: "times new roman", sans-serif;
   color: #dbdbdb;
   font-weight: 100;
-  margin-left: 36.7%;
-  margin-right: 36.7%;
+  text-align: center;
 }
 
 /* Protocols */
@@ -329,6 +328,7 @@ summary::-webkit-details-marker {
   .country {
     margin-left: 5%;
     margin-right: 5%;
+    text-align: center;
   }
 
   .protocol {
