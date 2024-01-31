@@ -146,7 +146,7 @@ strong {
 /* Body: white, black, rage */
 
 .white {
-  background-color: #bea9a9;
+  background-color: white;
 }
 
 .black {
@@ -199,7 +199,7 @@ img {
   margin-right: 27%;
   top: 0;
   z-index: 1;
-  background-color: #a9bebc;
+  background-color: white;
 }
 
 .pot {
