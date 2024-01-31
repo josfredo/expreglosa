@@ -19,6 +19,7 @@ body {
   margin-bottom: 5px;
   display: block;
   height: 22px;
+  border: 1px solid black;
 }
 
 .tisti2 {
@@ -26,6 +27,7 @@ body {
   margin-bottom: 5px;
   display: block;
   height: 22px;
+  border: 1px solid black;
 }
 
 .tisti3 {
@@ -40,7 +42,6 @@ body {
 .submit-btn {
   width: 388px;
   background-color: red;
-
   border: 1px solid grey;
   color: white;
   text-align: center;
