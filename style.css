@@ -71,6 +71,18 @@ a:any-link {
   color: #862e99;
 }
 
+.hmain {
+  text-decoration: none;
+  color: #2529f7;
+  font-size: 17px;
+  font-family: "times new roman", sans-serif;
+  font-weight: 100;
+}
+
+.hmain:hover {
+  color: #862e99;
+}
+
 .j {
   text-decoration: none;
   color: #65ac48;
