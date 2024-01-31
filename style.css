@@ -194,7 +194,9 @@ img {
   border-bottom: 1px solid #000000;
   display: flex;
   position: fixed;
-  width: 100%;
+  width: 46%;
+  margin-left: 27%;
+  margin-right: 27%;
   top: 0;
   z-index: 1;
   background-color: #a9bebc;
