@@ -301,8 +301,18 @@ summary::-webkit-details-marker {
 
 /* Protocols */
 
-.protocol {
+.accords {
   padding-top: 101px;
+  max-width: 100%;
+  font-size: 18px;
+  font-family: "times new roman", sans-serif;
+  color: #000;
+  font-weight: 100;
+  margin-left: 27.1%;
+  margin-right:27.1%;
+}
+
+.protocol {
   max-width: 100%;
   font-size: 18px;
   font-family: "times new roman", sans-serif;
