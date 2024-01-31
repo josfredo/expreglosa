@@ -301,7 +301,7 @@ summary::-webkit-details-marker {
 
 /* Protocols */
 
-.accords {
+.start {
   padding-top: 101px;
   max-width: 100%;
   font-size: 18px;
@@ -330,13 +330,25 @@ summary::-webkit-details-marker {
   color: #424242;
 }
 
-.skyqueen {
+.sqstart {
   padding-top: 101px;
   max-width: 100%;
   font-size: 18px;
   font-family: "times new roman", sans-serif;
   color: #dbdbdb;
   font-weight: 100;
+  margin-left: 27.1%;
+  margin-right:27.1%;
+}
+
+.skyqueen {
+  max-width: 100%;
+  font-size: 18px;
+  font-family: "times new roman", sans-serif;
+  color: #dbdbdb;
+  font-weight: 100;
+  margin-left: 27.1%;
+  margin-right:27.1%;
 }
 
 @media only screen and (max-width: 600px) {
