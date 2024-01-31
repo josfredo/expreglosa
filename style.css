@@ -205,7 +205,9 @@ img {
   border-bottom: 1px solid #dbdbdb;
   display: flex;
   position: fixed;
-  width: 100%;
+  width: 46%;
+  margin-left: 27%;
+  margin-right: 27%;
   top: 0;
   z-index: 1;
   background-color: #000000;
