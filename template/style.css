@@ -32,8 +32,8 @@ body {
   width: 55%;
   float: right;
   display: block;
-  height: 54px;
-  border-width: 1px;
+  height: 55px;
+  border: 1px solid black;
   margin: 0;
 }
 
