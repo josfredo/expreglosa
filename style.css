@@ -496,7 +496,7 @@ hr {
     margin-right: 3.2%;
 }
 
-/* Send™: Form-submitting, reinvented. */
+/* Send */
 
 .form-container {
   display: ;
@@ -534,6 +534,26 @@ hr {
   border-left: 2px solid #dbdbdb;
   border-top: 2px solid #dbdbdb;
     
+}
+
+/* Excel is online */
+
+.excel-grid {
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.excel-row {
+    display: table-row;
+}
+
+.excel-cell {
+    display: table-cell;
+    border: 1px solid black;
+    padding: 5px;
+    min-width: 100px; /* Adjust as per your requirement */
+    text-align: center;
 }
 
 /* My beautiful blue sky */
