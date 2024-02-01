@@ -209,6 +209,7 @@ ul.list {
 img {
   margin-left: 16px;
   display: block;
+  max-width: 100%;
 }
 
 .lost {
