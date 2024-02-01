@@ -499,55 +499,37 @@ hr {
 /* Send™: Form-submitting, reinvented. */
 
 .form-container {
-  display: flex;
+  display: ;
   flex-wrap: wrap;
-  margin: 20px auto;
-  max-width: 100%;
+  margin: 27px auto;
+  width: 305px;;
   justify-content: center;
 }
 
-.tisti1 {
-  width: 40%;
-  margin-bottom: 5px;
-  display: block;
-  height: 22px;
-  border: 1px solid black;
-  font-family: "times new roman", serif;
-  font-size: 13px;
-}
 
-.tisti2 {
-  width: 40%;
-  margin-bottom: 5px;
-  display: block;
-  height: 22px;
-  border: 1px solid black;
-  font-family: "times new roman", serif;
-  font-size: 13px;
-}
 
 .tisti3 {
-  width: 55%;
-  float: right;
   display: block;
   height: 51px;
-  border: 1px solid black;
+  border: 1px solid #dbdbdb;
   margin: 0;
   font-family: "times new roman", serif;
-  font-size: 13px;
+  font-size: 14px;
+  width: 299px;
 }
 
 .submit-btn {
-  width: 307px;
-  background-color: red;
-  border: 1px solid grey;
-  color: white;
-  justify-content: center;
-  cursor: pointer;
+  margin: px auto;
+  font-family: "times new roman", serif;
+  color: #dbdbdb;
   font-size: 14px;
   height: 22px;
-  font-family: "times new roman", serif;
-  font-size: 13px;
+  width: 305px;
+  background-color: red;
+  border: 1px solid #dbdbdb;
+  justify-content: center;
+  cursor: pointer;
+    
 }
 
 /* My beautiful blue sky */
