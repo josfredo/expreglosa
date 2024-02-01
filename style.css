@@ -538,6 +538,8 @@ hr {
   color: white;
   justify-content: center;
   cursor: pointer;
+  font-size: 14px;
+  height: 22px;
 }
 
 /* My beautiful blue sky */
