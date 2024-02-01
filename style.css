@@ -512,15 +512,13 @@ hr {
   display: block;
   margin-top: 11px;
   height: 51px;
-  border-right: 1px solid #dbdbdb;
-  border-left: 1px solid #dbdbdb;
   font-family: "times new roman", serif;
   font-size: 14px;
   width: 299px;
+    
 }
 
 .submit-btn {
-  margin-top: 11px;
   font-family: "times new roman", serif;
   color: #dbdbdb;
   font-size: 14px;
@@ -529,10 +527,10 @@ hr {
   background-color: red;
   justify-content: center;
   cursor: pointer;
-  border-right: 2px solid dark grey;
-  border-bottom: 2px solid dark grey;
-  border-left: 2px solid #dbdbdb;
-  border-top: 2px solid #dbdbdb;
+  border-right: 1px solid dark grey;
+  border-bottom: 1px solid dark grey;
+  border-left: 1px solid #dbdbdb;
+  border-top: 1px solid #dbdbdb;
     
 }
 
