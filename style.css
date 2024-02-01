@@ -532,11 +532,11 @@ hr {
 }
 
 .submit-btn {
-  width: 388px;
+  width: 307px;
   background-color: red;
   border: 1px solid grey;
   color: white;
-  text-align: center;
+  justify-content: center;
   cursor: pointer;
 }
 
