@@ -502,7 +502,7 @@ hr {
   display: flex;
   flex-wrap: wrap;
   margin: 20px auto;
-  max-width:100%;
+  max-width: 100%;
   justify-content: center;
 }
 
