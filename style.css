@@ -561,11 +561,11 @@ hr {
 
 .excel-cell:nth-child(1),
 .excel-cell:nth-child(3) {
-    width: 25%; /* First and last column width */
+    width: 25%;
 }
 
 .excel-cell:nth-child(2) {
-    width: 50%; /* Middle column width */
+    width: 50%;
 }
 
 /* My beautiful blue sky */
