@@ -529,6 +529,10 @@ hr {
   background-color: red;
   justify-content: center;
   cursor: pointer;
+  border-right: 2px solid dark grey;
+  border-bottom: 2px solid dark grey;
+  border-left: 2px solid #dbdbdb;
+  border-top: 2px solid #dbdbdb;
     
 }
 
