@@ -559,8 +559,13 @@ hr {
     vertical-align:top;
 }
 
-.excel-cell:nth-child(1) {
-    width:105px;
+.excel-cell:nth-child(1),
+.excel-cell:nth-child(3) {
+    width: 25%; /* First and last column width */
+}
+
+.excel-cell:nth-child(2) {
+    width: 50%; /* Middle column width */
 }
 
 /* My beautiful blue sky */
