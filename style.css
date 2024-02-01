@@ -26,7 +26,7 @@
 }
 
 .sub {
-    font-size: 19px;
+  font-size: 19px;
 }
 
 /* Text deco
@@ -65,8 +65,8 @@ a:any-link {
 }
 
 .expreglosa {
-    color: #dbdbdb;
-    font-size: 18px;
+  color: #dbdbdb;
+  font-size: 18px;
 }
 
 .n {
@@ -166,7 +166,7 @@ a:any-link {
 }
 
 .ra {
-  color:#000;
+  color: #000;
 }
 
 .z {
@@ -250,17 +250,17 @@ img {
 }
 
 .otp {
-    padding: 16px 0;
-    border-bottom: 1px solid #3e623b;
-    display: flex;
-    position: fixed;
-    width: 46%;
-    margin-left: 27%;
-    margin-right: 27%;
-    top: 0;
-    z-index: 1;
-    background-color:#3e623b;
-    height: 43px;
+  padding: 16px 0;
+  border-bottom: 1px solid #3e623b;
+  display: flex;
+  position: fixed;
+  width: 46%;
+  margin-left: 27%;
+  margin-right: 27%;
+  top: 0;
+  z-index: 1;
+  background-color: #3e623b;
+  height: 43px;
 }
 
 .block {
@@ -343,7 +343,7 @@ summary::-webkit-details-marker {
   color: #000;
   font-weight: 100;
   margin-left: 27.1%;
-  margin-right:27.1%;
+  margin-right: 27.1%;
 }
 
 .protocol {
@@ -353,7 +353,7 @@ summary::-webkit-details-marker {
   color: #000;
   font-weight: 100;
   margin-left: 27.1%;
-  margin-right:27.1%;
+  margin-right: 27.1%;
 }
 
 .tunnel {
@@ -372,7 +372,7 @@ summary::-webkit-details-marker {
   color: #dbdbdb;
   font-weight: 100;
   margin-left: 27.1%;
-  margin-right:27.1%;
+  margin-right: 27.1%;
 }
 
 .skyqueen {
@@ -382,7 +382,7 @@ summary::-webkit-details-marker {
   color: #dbdbdb;
   font-weight: 100;
   margin-left: 27.1%;
-  margin-right:27.1%;
+  margin-right: 27.1%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -450,12 +450,12 @@ ul {
 
 .foxtrot {
   margin-left: 27.1%;
-  margin-right:27.1%;
+  margin-right: 27.1%;
 }
 
 .ursula {
-    
-  list-style-type: initial;  
+
+  list-style-type: initial;
 }
 
 hr {
@@ -463,12 +463,13 @@ hr {
   height: 1px;
   border: none;
   margin-left: 26%;
-  margin-right:26%;
+  margin-right: 26%;
 }
 
 .hrup {
   margin-bottom: 12px;
 }
+
 .hrdo {
   margin-top: 12px;
 }
@@ -483,6 +484,7 @@ hr {
   background-color: #dbdbdb;
   margin-bottom: 11px;
 }
+
 .hrdosky {
   background-color: #dbdbdb;
   margin-top: 11px;
@@ -493,25 +495,23 @@ hr {
 }
 
 .rounder {
-    border: 1px solid #000;
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-bottom: 2px;
-    margin-left: 3.2%;
-    margin-right: 3.2%;
+  border: 1px solid #000;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 2px;
+  margin-left: 3.2%;
+  margin-right: 3.2%;
 }
 
 /* Send */
 
 .form-container {
-  display: ;
+  display: block;
   flex-wrap: wrap;
   margin: 23px auto;
-  width: 305px;;
+  width: 305px;
   justify-content: center;
 }
-
-
 
 .tisti3 {
   display: block;
@@ -519,8 +519,11 @@ hr {
   height: 51px;
   font-family: "times new roman", serif;
   font-size: 15px;
-  width: 299px;
-    
+  width: 100%;
+  max-width: calc(100% - 10px);
+  border: 1px solid grey;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 .submit-btn {
@@ -528,42 +531,44 @@ hr {
   color: #dbdbdb;
   font-size: 14px;
   height: 24px;
-  width: 305px;
+  max-width: 100%;
+  width: 100%;
   background-color: red;
   justify-content: center;
   cursor: pointer;
-  border-right: 1px solid dark grey;
-  border-bottom: 1px solid dark grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
   border-left: 1px solid #dbdbdb;
   border-top: 1px solid #dbdbdb;
-    
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 /* Excel is online */
 
 .excel-grid {
-    display: table;
-    border-collapse: collapse;
-    width: 100%;
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 .excel-row {
-    display: table-row;
+  display: table-row;
 }
 
 .excel-cell {
-    display: table-cell;
-    border: 1px solid #000;
-    padding-right: 2px; 
-    padding-left: 5px;  
-    padding-top: 2px;
-    padding-bottom: 2px;
-    min-width: 100px;
-    vertical-align:top;
+  display: table-cell;
+  border: 1px solid #000;
+  padding-right: 2px;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  min-width: 100px;
+  vertical-align: top;
 }
 
 .excel-cell:nth-child(1) {
-    width: 10%;
+  width: 10%;
 }
 
 .shane {
