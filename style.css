@@ -551,9 +551,9 @@ hr {
 .excel-cell {
     display: table-cell;
     border: 1px solid black;
-    padding: 5px;
-    min-width: 100px; /* Adjust as per your requirement */
-    text-align: center;
+    padding-left: 3px;
+    min-width: 100px;
+    vertical-align: top;
 }
 
 /* My beautiful blue sky */
