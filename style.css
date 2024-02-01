@@ -496,6 +496,11 @@ hr {
     margin-right: 3.2%;
 }
 
+.logic {
+    margin-left: 3.2%;
+    margin-right: 3.2%;
+}
+
 /* Send */
 
 .form-container {
@@ -554,6 +559,10 @@ hr {
     padding-left: 3px;
     min-width: 100px;
     vertical-align: top;
+}
+
+.excel-cell:nth-child(1) {
+    width: 80%;
 }
 
 /* My beautiful blue sky */
