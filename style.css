@@ -510,23 +510,23 @@ hr {
 
 .tisti3 {
   display: block;
+  margin-top: 11px;
   height: 51px;
-  border: 1px solid #dbdbdb;
-  margin: 0;
+  border-right: 1px solid #dbdbdb;
+  border-left: 1px solid #dbdbdb;
   font-family: "times new roman", serif;
   font-size: 14px;
   width: 299px;
 }
 
 .submit-btn {
-  margin: px auto;
+  margin-top: 11px;
   font-family: "times new roman", serif;
   color: #dbdbdb;
   font-size: 14px;
-  height: 22px;
+  height: 24px;
   width: 305px;
   background-color: red;
-  border: 1px solid #dbdbdb;
   justify-content: center;
   cursor: pointer;
     
