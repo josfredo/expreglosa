@@ -512,6 +512,8 @@ hr {
   display: block;
   height: 22px;
   border: 1px solid black;
+  font-family: "times new roman", serif;
+  font-size: 13px;
 }
 
 .tisti2 {
@@ -520,6 +522,8 @@ hr {
   display: block;
   height: 22px;
   border: 1px solid black;
+  font-family: "times new roman", serif;
+  font-size: 13px;
 }
 
 .tisti3 {
@@ -529,6 +533,8 @@ hr {
   height: 51px;
   border: 1px solid black;
   margin: 0;
+  font-family: "times new roman", serif;
+  font-size: 13px;
 }
 
 .submit-btn {
