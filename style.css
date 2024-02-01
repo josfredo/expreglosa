@@ -64,6 +64,11 @@ a:any-link {
   color: #4aff00;
 }
 
+.expreglosa {
+    color: #dbdbdb;
+    font-size: 18px;
+}
+
 .n {
   text-decoration: none;
   color: #9946c3;
