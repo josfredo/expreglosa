@@ -501,9 +501,9 @@ hr {
 .form-container {
   display: flex;
   flex-wrap: wrap;
-  width: 66%;
   margin: 20px auto;
   max-width:100%;
+  justify-content: center;
 }
 
 .tisti1 {
