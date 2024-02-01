@@ -8,6 +8,7 @@
   cursor: default;
   user-select: none;
   scroll-padding-top: 94px;
+  resize: none;
 }
 
 .center {
@@ -84,6 +85,18 @@ a:any-link {
 }
 
 .h:hover {
+  color: #862e99;
+}
+
+.o {
+  text-decoration: none;
+  color: #2529f7;
+  font-size: 17px;
+  font-family: "times new roman", sans-serif;
+  font-weight: 100;
+}
+
+.o:hover {
   color: #862e99;
 }
 
@@ -481,6 +494,50 @@ hr {
     padding-bottom: 2px;
     margin-left: 3.2%;
     margin-right: 3.2%;
+}
+
+/* Send™: Form-submitting, reinvented. */
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 66%;
+  margin: 20px auto;
+  max-width:100%;
+}
+
+.tisti1 {
+  width: 40%;
+  margin-bottom: 5px;
+  display: block;
+  height: 22px;
+  border: 1px solid black;
+}
+
+.tisti2 {
+  width: 40%;
+  margin-bottom: 5px;
+  display: block;
+  height: 22px;
+  border: 1px solid black;
+}
+
+.tisti3 {
+  width: 55%;
+  float: right;
+  display: block;
+  height: 51px;
+  border: 1px solid black;
+  margin: 0;
+}
+
+.submit-btn {
+  width: 388px;
+  background-color: red;
+  border: 1px solid grey;
+  color: white;
+  text-align: center;
+  cursor: pointer;
 }
 
 /* My beautiful blue sky */
