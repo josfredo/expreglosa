@@ -1,6 +1,12 @@
-﻿https://galardica.com/
+﻿https://erase.galardica.com/
+https://ether.galardica.com/
+https://excel.galardica.com/
+https://exile.galardica.com/
+https://galardica.com/
 https://galardica.com/Solo-Exhibition-20.pdf
+https://galardica.com/SoloExhibition20.pdf
 https://galardica.com/acuerdos/
+https://galardica.com/admin/
 https://galardica.com/connect/
 https://galardica.com/found
 https://galardica.com/index-en
@@ -9,5 +15,4 @@ https://galardica.com/reinadeloscielos/
 https://galardica.com/robots.txt
 https://galardica.com/sitemap.txt
 https://galardica.com/template/
-https://ether.galardica.com/
-https://ether.galardica.com/sitemap_index.xml
+https://rage.galardica.com/
