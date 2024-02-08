@@ -252,7 +252,7 @@ img {
   margin-right: 26%;
   top: 0;
   z-index: 1;
-  background-color: #000000;
+  -webkit-backdrop-filter: blur(6px);
 }
 
 .otp {
