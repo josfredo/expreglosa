@@ -31,7 +31,7 @@
       list-style-type: none;
       }
       a {
-      font-size: 15px;
+      font-size: min(2.5vw,15px);
       color: #dbdbdb; /* Set the link color */
       text-decoration: none; /* Remove underline */
       }
@@ -47,26 +47,18 @@
       #main {
       position: relative;
       width: 100%;
+      display: flex;
       }
       #mainBody {
       position: relative;
-      width: 100%;
+      margin-left: auto;
+      margin-right:auto;
+      margin-top: 20px;
+      display: flex;
       }
       #col1 {
-      position: absolute;
-      width: 11.5%;
-      top: 40px;
-      right: 50%; 
-      z-index: 2;
-      font-size: 10pt;
       }
       #col2 {
-      position: absolute;
-      width: 23%;
-      top: 40px;
-      left: 50%; 
-      z-index: 2;
-      font-size: 10pt;
       }
       .win{
       margin: 3px;
