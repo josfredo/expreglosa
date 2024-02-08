@@ -1,4 +1,5 @@
-﻿https://erase.galardica.com/
+﻿https://eidos.galardica.com/
+https://erase.galardica.com/
 https://ether.galardica.com/
 https://excel.galardica.com/
 https://exile.galardica.com/
@@ -8,8 +9,10 @@ https://galardica.com/SoloExhibition20.pdf
 https://galardica.com/acuerdos/
 https://galardica.com/admin/
 https://galardica.com/connect/
+https://galardica.com/creditos/
 https://galardica.com/found
 https://galardica.com/index-en
+https://galardica.com/logistica/
 https://galardica.com/rage/
 https://galardica.com/reinadeloscielos/
 https://galardica.com/robots.txt
