@@ -8,6 +8,9 @@
     <title>Hyperlinks</title>
     <link rel="canonical" href="https://galardica.com/">
     <!--Cracky es catarsis https://cracky-chan.com/-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <style media="screen">
       li {
       /* Other list item styles */
@@ -31,7 +34,7 @@
       list-style-type: none;
       }
       a {
-      font-size: min(3.4vw,15px);
+      font-size: min(3.5vw,15px);
       color: #dbdbdb; /* Set the link color */
       text-decoration: none; /* Remove underline */
       text-overflow: clip;
@@ -92,7 +95,7 @@
       border-bottom: 1px #aaaaaa;
       color: #fff;
       padding-left: 3px;
-      }
+      }  
     </style>
   </head>
   <body>
@@ -102,24 +105,24 @@
       <div id="mainBody">
         <div id="col1">
           <div class="win">
-            <div class="title">Galardica</div>
-            <div class="winBody">
+            <div class="title" data-bs-toggle="collapse" data-bs-target="#galardica" role="button">Galardica</div>
+            <div class="winBody collapse show" id="galardica">
               <ul>
-                <li> <a href="/">Galardica.com</a>
+                <li> <a href="../">Galardica.com</a>
                 </li>
-                <li> <a href="http://exile.galardica.com">Exile</a>
+                <li> <a href="https://exile.galardica.com">Exile</a>
                 </li>
-                <li> <a href="http://galardica.bandcamp.com">Eidos</a>
+                <li> <a href="https://galardica.bandcamp.com">Eidos</a>
                 </li>
-                <li> <a href="http://ether.galardica.com">Ether</a>
+                <li> <a href="https://ether.galardica.com">Ether</a>
                 </li>
-                <li> <a href="/acuerdos/">Accords</a>
+                <li> <a href="../acuerdos/">Accords</a>
                 </li>
-                <li> <a href="/reinadeloscielos/">Sky Queen</a>
+                <li> <a href="../reinadeloscielos/">Sky Queen</a>
                 </li>
-                <li> <a href="/logistica/">Logistics</a>
+                <li> <a href="../logistica/">Logistics</a>
                 </li>
-                <li> <a href="/creditos/">Credits</a>
+                <li> <a href="../creditos/">Credits</a>
                 </li>
               </ul>
             </div>
@@ -127,8 +130,8 @@
         </div>
         <div id="col2">
           <div class="win">
-            <div class="title">Filmography</div>
-            <div class="winBody">
+            <div class="title" data-bs-toggle="collapse" data-bs-target="#filmography" role="button">Filmography</div>
+            <div class="winBody collapse show" id="filmography">
               <ul>
                 <li> <a href="">Toda la basura está en el Perú</a>
                 </li>
@@ -146,73 +149,73 @@
             </div>
           </div>
           <div class="win">
-            <div class="title">Photography</div>
-            <div class="winBody">
+            <div class="title" data-bs-toggle="collapse" data-bs-target="#photography" role="button">Photography</div>
+            <div class="winBody collapse show" id="photography">
               <ul>
-                <li> <a href="https://galardica.com/SoloExhibition20.pdf">Solo Exhibition '20</a>
+                <li> <a href="../SoloExhibition20.pdf">Solo Exhibition '20</a>
                 </li>
               </ul>
             </div>
           </div>
           <div class="win">
-            <div class="title">Discography</div>
-            <div class="winBody">
+            <div class="title" data-bs-toggle="collapse" data-bs-target="#discography" role="button">Discography</div>
+            <div class="winBody collapse show" id="discography">
               <ul>
-                <li> <a href="http://eidos.galardica.com/fine-america/">Fine America</a>
-                <li> <a href="http://eidos.galardica.com/krimson-by-jones/">Krimson by Jones</a>
-                <li> <a href="http://eidos.galardica.com/la-malla-novella/">La mala novella</a>
-                <li> <a href="http://eidos.galardica.com/we-should-have-been-sublime/">We Should Have Been Sublime</a>
-                <li> <a href="http://eidos.galardica.com/dolores-comma-ray/">dolores, ray</a>
-                <li> <a href="http://eidos.galardica.com/contempt-in-the-face-of-adversity/">Contempt In The Face Of Adversity</a>
-                <li> <a href="http://eidos.galardica.com/rise-the-forbidden-adulations/">RISE: THE FORBIDDEN ADULATIONS</a>
-                <li> <a href="http://eidos.galardica.com/rise/">RISE</a>
-                <li> <a href="http://eidos.galardica.com/at-the-expense-of-others/">At The Expense Of Others</a>
-                <li> <a href="http://eidos.galardica.com/3/">第三</a>
-                <li> <a href="http://eidos.galardica.com/al-profaetea-galardica/">Ål Profætea Galardica</a>
-                <li> <a href="http://eidos.galardica.com/galardica/">Galardica</a>
-                <li> <a href="http://eidos.galardica.com/onomatopeia-tokio/">Onomatopeia/Tokio</a>
-                <li> <a href="http://eidos.galardica.com/durst-1/">durst+1</a>
-                <li> <a href="http://eidos.galardica.com/dolores-ray/">dolores ray: an anthology</a>
-                <li> <a href="http://eidos.galardica.com/mini-empires/">MINI empires</a>
-                <li> <a href="http://eidos.galardica.com/broken-minister-inc/">Broken Minister, Inc.</a>
-                <li> <a href="http://eidos.galardica.com/noji-mena/">noji mena</a>
-                <li> <a href="http://eidos.galardica.com/comshlat/">Comshlat</a>
-                <li> <a href="http://eidos.galardica.com/shlatcom/">Shlatcom</a>
-                <li> <a href="http://eidos.galardica.com/quaaludequantago/">QuaaludeQuantago</a>
-                <li> <a href="http://eidos.galardica.com/haze-and-ever-after/">Haze & Ever After</a>
-                <li> <a href="http://eidos.galardica.com/unisex-backrooms/">Unisex Backrooms</a>
-                <li> <a href="http://eidos.galardica.com/leviathan-industries-fm/">Leviathan Industries FM</a>
-                <li> <a style="font-size: min(2.8vw,15px)" href="http://eidos.galardica.com/heal-the-body-and-the-head-will-rise/">HEAL THE BODY AND THE HEAD WILL RISE</a>
-                <li> <a href="http://eidos.galardica.com/sea-sides/">Sea Sides</a>
-                <li> <a href="http://eidos.galardica.com/besides-comma/">Besides,</a>
-                <li> <a href="http://eidos.galardica.com/rosen-redux/">Rosen Redux</a>  
-                <li> <a href="http://eidos.galardica.com/skyqueen/">skyQueen</a>
-                <li> <a href="http://eidos.galardica.com/the-human-plant/">The Human Plant</a>
-                <li> <a href="http://eidos.galardica.com/unisex-bathrooms/">Unisex Bathrooms</a>
-                <li> <a href="http://eidos.galardica.com/protosynthesis/">Protosynthesis</a>
-                <li> <a href="http://eidos.galardica.com/electronic-graffiti/">電子落書き</a>
-                <li> <a href="http://eidos.galardica.com/superdiocane/">Superdiocane</a>
-                <li> <a href="http://eidos.galardica.com/no-3/">No. 3</a>
-                <li> <a href="http://eidos.galardica.com/no-2/">No. 2</a>
-                <li> <a href="http://eidos.galardica.com/no-1/">No. 1</a>
+                <li> <a href="https://eidos.galardica.com/fine-america/">Fine America</a>
+                <li> <a href="https://eidos.galardica.com/krimson-by-jones/">Krimson by Jones</a>
+                <li> <a href="https://eidos.galardica.com/la-malla-novella/">La mala novella</a>
+                <li> <a href="https://eidos.galardica.com/we-should-have-been-sublime/">We Should Have Been Sublime</a>
+                <li> <a href="https://eidos.galardica.com/dolores-comma-ray/">dolores, ray</a>
+                <li> <a href="https://eidos.galardica.com/contempt-in-the-face-of-adversity/">Contempt In The Face Of Adversity</a>
+                <li> <a href="https://eidos.galardica.com/rise-the-forbidden-adulations/">RISE: THE FORBIDDEN ADULATIONS</a>
+                <li> <a href="https://eidos.galardica.com/rise/">RISE</a>
+                <li> <a href="https://eidos.galardica.com/at-the-expense-of-others/">At The Expense Of Others</a>
+                <li> <a href="https://eidos.galardica.com/3/">第三</a>
+                <li> <a href="https://eidos.galardica.com/al-profaetea-galardica/">Ål Profætea Galardica</a>
+                <li> <a href="https://eidos.galardica.com/galardica/">Galardica</a>
+                <li> <a href="https://eidos.galardica.com/onomatopeia-tokio/">Onomatopeia/Tokio</a>
+                <li> <a href="https://eidos.galardica.com/durst-1/">durst+1</a>
+                <li> <a href="https://eidos.galardica.com/dolores-ray/">dolores ray: an anthology</a>
+                <li> <a href="https://eidos.galardica.com/mini-empires/">MINI empires</a>
+                <li> <a href="https://eidos.galardica.com/broken-minister-inc/">Broken Minister, Inc.</a>
+                <li> <a href="https://eidos.galardica.com/noji-mena/">noji mena</a>
+                <li> <a href="https://eidos.galardica.com/comshlat/">Comshlat</a>
+                <li> <a href="https://eidos.galardica.com/shlatcom/">Shlatcom</a>
+                <li> <a href="https://eidos.galardica.com/quaaludequantago/">QuaaludeQuantago</a>
+                <li> <a href="https://eidos.galardica.com/haze-and-ever-after/">Haze & Ever After</a>
+                <li> <a href="https://eidos.galardica.com/unisex-backrooms/">Unisex Backrooms</a>
+                <li> <a href="https://eidos.galardica.com/leviathan-industries-fm/">Leviathan Industries FM</a>
+                <li> <a style="font-size: min(3.0vw,15px)" href="https://eidos.galardica.com/heal-the-body-and-the-head-will-rise/">HEAL THE BODY AND THE HEAD WILL RISE</a>
+                <li> <a href="https://eidos.galardica.com/sea-sides/">Sea Sides</a>
+                <li> <a href="https://eidos.galardica.com/besides-comma/">Besides,</a>
+                <li> <a href="https://eidos.galardica.com/rosen-redux/">Rosen Redux</a>  
+                <li> <a href="https://eidos.galardica.com/skyqueen/">skyQueen</a>
+                <li> <a href="https://eidos.galardica.com/the-human-plant/">The Human Plant</a>
+                <li> <a href="https://eidos.galardica.com/unisex-bathrooms/">Unisex Bathrooms</a>
+                <li> <a href="https://eidos.galardica.com/protosynthesis/">Protosynthesis</a>
+                <li> <a href="https://eidos.galardica.com/electronic-graffiti/">電子落書き</a>
+                <li> <a href="https://eidos.galardica.com/superdiocane/">Superdiocane</a>
+                <li> <a href="https://eidos.galardica.com/no-3/">No. 3</a>
+                <li> <a href="https://eidos.galardica.com/no-2/">No. 2</a>
+                <li> <a href="https://eidos.galardica.com/no-1/">No. 1</a>
                 </li>
               </ul>
             </div>
           </div>
           <div class="win">
-            <div class="title">Bibliography - English</div>
-            <div class="winBody">
+            <div class="title" data-bs-toggle="collapse" data-bs-target="#bib-en" role="button">Bibliography - English</div>
+            <div class="winBody collapse show" id="bib-en">
               <ul>
                 <li> <a href="https://ether.galardica.com/en/albums/things-to-ignore/">Things To Ignore</a>
-                <li> <a href="https://ether.galardica.com/en/albums/were-either-filthy-or-a-hundred-years-ahead/">we're either filthy or one hundred years ahead</a>
+                <li> <a style="font-size: min(2.9vw,15px)" href="https://ether.galardica.com/en/albums/were-either-filthy-or-a-hundred-years-ahead/">we're either filthy or one hundred years ahead</a>
                 <li> <a href="https://ether.galardica.com/en/albums/tales-tatcher/">Tales Tatcher</a>
                 </li>
               </ul>
             </div>
           </div>
           <div class="win">
-            <div class="title">Bibliography - Spanish</div>
-            <div class="winBody">
+            <div class="title" data-bs-toggle="collapse" data-bs-target="#bib-es" role="button">Bibliography - Spanish</div>
+            <div class="winBody collapse show" id="bib-es">
               <ul>
                 <li> <a href="https://ether.galardica.com/es/albumes/lluvia-olivia/">Lluvia, Olivia</a>
                 <li> <a href="https://ether.galardica.com/es/albumes/proto-galardica/">Proto-Galardica</a>
